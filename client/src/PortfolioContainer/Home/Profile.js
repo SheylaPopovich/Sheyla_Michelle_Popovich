@@ -8,16 +8,32 @@ export default function Profile() {
       <div className="profile-parent">
         <div className="profile-details">
           <div className="colz">
-            <a href="https://www.facebook.com/sheyla.michelle.303">
+            <a
+              aria
+              label="link to facebook "
+              href="https://www.facebook.com/sheyla.michelle.303"
+            >
               <i className="fa fa-facebook-square"></i>
             </a>
-            <a href="https://www.instagram.com/sheyla_popovich/">
+            <a
+              aria
+              label="link to instagram"
+              href="https://www.instagram.com/sheyla_popovich/"
+            >
               <i className="fa fa-instagram"></i>
             </a>
-            <a href="https://www.linkedin.com/in/sheyla-popovich-fsd/">
+            <a
+              aria
+              label="link to linkedin"
+              href="https://www.linkedin.com/in/sheyla-popovich-fsd/"
+            >
               <i className="fa fa-linkedin-square"></i>
             </a>
-            <a href="https://github.com/SheylaPopovich">
+            <a
+              aria
+              label="link to github"
+              href="https://github.com/SheylaPopovich"
+            >
               <i className="fa fa-github-square"></i>
             </a>
           </div>
@@ -25,7 +41,7 @@ export default function Profile() {
           <div className="profile-details-name">
             <span>
               {" "}
-              Sheyla <span className="highlighted-text">.is()</span> 
+              Sheyla <span className="highlighted-text">.is()</span>
               <br></br>
               <span>Sheyla Popovich</span>
             </span>
@@ -52,16 +68,25 @@ export default function Profile() {
                 />
               </h1>
               <span className="profile-role-tagline">
-              I wish to create innovative websites while displaying the highest level of professionalism to achieve absolute client satisfaction.
+                I wish to create innovative websites while displaying the
+                highest level of professionalism to achieve absolute client
+                satisfaction.
               </span>
             </span>
           </div>
           <div className="profile-options">
-                  <button className="btn primary-btn">
-                      {""}
-                      Hire Me{" "}
-                  </button>
-                  <a href="Sheyla_Popovich_Resume.pdf" download="Sheyla Sheyla_Popovich_Resume.pdf "></a>
+            <button className="btn primary-btn">
+              {""}
+              Hire Me{" "}
+            </button>
+            <a
+              aria
+              label="link to resume"
+              href="Sheyla_Popovich_Resume.pdf"
+              download="Sheyla_Popovich_Resume.pdf "
+            >
+              <button className="btn highlighted-btn"> Get Resume</button>
+            </a>
           </div>
         </div>
       </div>
