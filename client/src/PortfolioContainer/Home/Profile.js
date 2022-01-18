@@ -41,11 +41,9 @@ export default function Profile() {
           </div>
 
           <div className="profile-details-name">
-            <span>
+            <span className="primary-text">
               {" "}
-              Sheyla <span className="highlighted-text">.is()</span>
-              <br></br>
-              <span>Sheyla Popovich</span>
+              Hello, I'M <span className="highlighted-text">Sheyla Popovich</span>
             </span>
           </div>
           <div className="profile-details-role">
