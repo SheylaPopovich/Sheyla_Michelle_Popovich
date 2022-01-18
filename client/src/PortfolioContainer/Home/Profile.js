@@ -8,34 +8,36 @@ export default function Profile() {
       <div className="profile-parent">
         <div className="profile-details">
           <div className="colz">
-            <a
-              aria
-              label="link to facebook "
-              href="https://www.facebook.com/sheyla.michelle.303"
-            >
-              <i className="fa fa-facebook-square"></i>
-            </a>
-            <a
-              aria
-              label="link to instagram"
-              href="https://www.instagram.com/sheyla_popovich/"
-            >
-              <i className="fa fa-instagram"></i>
-            </a>
-            <a
-              aria
-              label="link to linkedin"
-              href="https://www.linkedin.com/in/sheyla-popovich-fsd/"
-            >
-              <i className="fa fa-linkedin-square"></i>
-            </a>
-            <a
-              aria
-              label="link to github"
-              href="https://github.com/SheylaPopovich"
-            >
-              <i className="fa fa-github-square"></i>
-            </a>
+            <div className="colz-icon">
+              <a
+                aria
+                label="link to facebook "
+                href="https://www.facebook.com/sheyla.michelle.303"
+              >
+                <i className="fa fa-facebook-square"></i>
+              </a>
+              <a
+                aria
+                label="link to instagram"
+                href="https://www.instagram.com/sheyla_popovich/"
+              >
+                <i className="fa fa-instagram"></i>
+              </a>
+              <a
+                aria
+                label="link to linkedin"
+                href="https://www.linkedin.com/in/sheyla-popovich-fsd/"
+              >
+                <i className="fa fa-linkedin-square"></i>
+              </a>
+              <a
+                aria
+                label="link to github"
+                href="https://github.com/SheylaPopovich"
+              >
+                <i className="fa fa-github-square"></i>
+              </a>
+            </div>
           </div>
 
           <div className="profile-details-name">
