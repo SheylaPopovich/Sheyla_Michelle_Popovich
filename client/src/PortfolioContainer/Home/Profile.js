@@ -25,7 +25,7 @@ export default function Profile() {
           <div className="profile-details-name">
             <span>
               {" "}
-              Sheyla <span className="highlighted-text">.is()</span>
+              Sheyla <span className="highlighted-text">.is()</span> 
               <br></br>
               <span>Sheyla Popovich</span>
             </span>
@@ -52,21 +52,16 @@ export default function Profile() {
                 />
               </h1>
               <span className="profile-role-tagline">
-                I wish to create innovative websites while displaying the
-                highest level of professionalism to achieve absolute client
-                satisfaction.
+              I wish to create innovative websites while displaying the highest level of professionalism to achieve absolute client satisfaction.
               </span>
             </span>
           </div>
           <div className="profile-options">
-            <button className="btn primary-btn">
-              {""}
-              Hire Me{" "}
-            </button>
-            <a
-              href="Sheyla_Popovich_Resume.pdf"
-              download="Sheyla Sheyla_Popovich_Resume.pdf "
-            ></a>
+                  <button className="btn primary-btn">
+                      {""}
+                      Hire Me{" "}
+                  </button>
+                  <a href="Sheyla_Popovich_Resume.pdf" download="Sheyla Sheyla_Popovich_Resume.pdf "></a>
           </div>
         </div>
       </div>
