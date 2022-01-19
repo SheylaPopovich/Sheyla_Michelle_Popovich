@@ -141,3 +141,16 @@
       text-align: center;
   }
 }
+
+@media screen and (max-width: 375px) {
+  .profile-picture{
+      height: 275px;
+      width: 275px;
+      margin-top: -90px; 
+  }
+  .profile-details{
+      width: 90%;
+  }
+}
+
+
