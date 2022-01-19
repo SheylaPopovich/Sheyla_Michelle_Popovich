@@ -4,8 +4,8 @@ import Footer from "./PortfolioContainer/Home/Footer/Footer";
 function App() {
   return (
     <div className="App">
-    <Profile />
-    <Footer />
+      <Profile />
+      <Footer />
     </div>
   );
 }
