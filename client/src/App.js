@@ -1,4 +1,5 @@
 import Profile from "./PortfolioContainer/Home/Profile";
+import Footer from "./PortfolioContainer/Home/Footer/Footer";
 
 function App() {
   return (
