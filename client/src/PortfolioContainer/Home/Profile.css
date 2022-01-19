@@ -73,7 +73,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  transform: rotate(328deg);
+  /* transform: rotate(328deg); */
 }
 
 .profile-picture-background:hover {
@@ -89,4 +89,22 @@
 
 .colz .colz-icon i:hover {
   transform: scale(1.5);
+}
+
+
+@media screen and (max-width: 1110px) {
+  .profile-picture {
+    margin: 0 0px 0 80px;
+  }
+  .profile-details-name {
+    font-size: 20px;
+  }
+  .profile-details-role .primary-text {
+    font-size: 12px;
+  }
+  .profile-options .btn {
+    width: 120px;
+    padding: 11px 0;
+    z-index: 700;
+  }
 }
