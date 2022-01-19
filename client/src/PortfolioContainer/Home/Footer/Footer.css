@@ -17,3 +17,9 @@
   height: 130px;
 }
 
+@media only screen and (max-width: 1110px) {
+   .footer-parent {
+       display: flex;
+       align-items: flex-end;
+   } 
+}
