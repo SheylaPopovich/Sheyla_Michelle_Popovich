@@ -30,3 +30,8 @@
     cursor: pointer;
     font-weight: 600;
 }
+
+.header-hamburger{
+    display: none;
+    color: var(--white);
+}
