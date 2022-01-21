@@ -6,10 +6,10 @@ import "./Home.css";
 
 export default function Home() {
   return (
-  <div className="home-container">
-    <Header />
-<Profile />
-<Footer /> 
-  </div>
-  )
+    <div className="home-container">
+      <Header />
+      <Profile />
+      <Footer />
+    </div>
+  );
 }
