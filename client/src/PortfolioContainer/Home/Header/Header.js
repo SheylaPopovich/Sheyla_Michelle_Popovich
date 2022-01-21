@@ -20,5 +20,17 @@ export default function Header() {
   let currentScreenSubscription =
     ScrollService.currentScreenBroadCaster.subscribe(updateCurrentScreen);
 
+  const getHeaderOptions = () => {
+     return(
+         TOTAL_SCREENS.map((screen, i)=>(
+             <div key={screen.screen_name} className={getHeaderOptionsClass(i)}
+             onClick={() => switchScreen(i, screen)}>
+                 <span>{screen.screen_name}</span>
+             </div>
+         ))
+     )
+    }
+  
+
   return <div></div>;
 }
