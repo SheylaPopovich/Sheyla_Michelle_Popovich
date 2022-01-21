@@ -13,3 +13,9 @@
     width: 70%;
     color: var(--white)
 }
+
+.header-logo{
+    font-size: 50px;
+    font-family: "Poppins ExtraBold";
+    color: var(--white)
+}
