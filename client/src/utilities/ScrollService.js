@@ -29,6 +29,15 @@ export default class ScrollService{
         let partiallyVisible = elementTop < window.innerHeight && elementBottom >=0;
         let completelyVisible = elementTop >= 0 && elementBottom <=window.innerHeight;
 
-        
+        switch(type){
+            case "partial":
+                return partiallyVisible;
+
+                case "complete":
+                    return completelyVisible
+                    default:
+                        return false
+
+        }
     }
 }
