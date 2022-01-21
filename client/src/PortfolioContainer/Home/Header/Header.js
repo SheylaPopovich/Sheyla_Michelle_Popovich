@@ -33,7 +33,7 @@ export default function Header() {
     ));
   };
 
-  const getHeaderOptions = (index) => {
+  const getHeaderOptionsClass = (index) => {
     let classes = "header-option";
     if (index < TOTAL_SCREENS.length - 1) classes += "header-option-seperator";
 
