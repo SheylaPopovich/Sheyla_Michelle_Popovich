@@ -17,8 +17,18 @@ export default class ScrollService{
         contactMeScreen.scrollIntoView({behavior: "smooth"})
     }
     scrollToHome = ()=>{
-        let contactMeScreen = document.getElementById("Home")
-        if(!contactMeScreen) return;
-        contactMeScreen.scrollIntoView({behavior: "smooth"})
+        let homeScreen = document.getElementById("Home")
+        if(!homeScreen) return;
+        homeScreen.scrollIntoView({behavior: "smooth"})
+    }
+    isElementInView=(elem, type)=>{
+        let rec = elem.getBoundingClientReact();
+        let elementTop = rec.top;
+        let elementBottom = rec.Bottom;
+
+        let partiallyVisible = elementTop < window.innerHeight && elementBottom >=0;
+        let completelyVisible = elementTop >= 0 && elementBottom <=window.innerHeight;
+
+        
     }
 }
