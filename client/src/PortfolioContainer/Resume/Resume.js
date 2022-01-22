@@ -102,7 +102,15 @@ export default function Resume(props) {
       </div>
       <div className="experience-description">
         <span className="resume-description-text">
-            
+           - Please some text here that will be for description
+        </span>
+        <br/>
+        <span className="resume-description-text">
+           - Please some text here that will be for description Please some text here that will be for description
+        </span>
+        <br/>
+        <span className="resume-description-text">
+           - Please some text here that will be for description Please some text here that will be for description
         </span>
       </div>
     </div>,
