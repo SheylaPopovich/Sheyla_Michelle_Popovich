@@ -10,6 +10,11 @@ export default function AboutMe(props) {
   };
   const fadeInSubscription =
     ScrollService.currentScreenFadeIn.subscribe(fadeInScreenHandler);
+
+    const SCREEN_CONSTSANTS = {
+        description: "Zoox’s fleet management application is an essential tool in the operation of our ever-growing fleet of autonomous robotaxis. We build tools to interact with and monitor our vehicles remotely",
+    }
+
   return (
     <div className="about-me-container screen-container" id={props.id || ""}>
       <div className="about-me-parent">
