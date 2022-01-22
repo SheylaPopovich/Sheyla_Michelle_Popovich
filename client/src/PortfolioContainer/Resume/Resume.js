@@ -15,7 +15,7 @@ export default function Resume(props) {
     ScrollService.currentScreenFadeIn.subscribe(fadeInScreenHandler);
 
   return (
-    <div resume-container screen-container>
+    <div resume-container screen-container id={props.id || ""}>
       <div className="resume-content">
         <ScreenHeading title={"Resume"} subHeading={"My Formal Bio Details"} />
       </div>
