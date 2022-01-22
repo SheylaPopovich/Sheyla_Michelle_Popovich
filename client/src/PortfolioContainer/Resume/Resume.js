@@ -30,13 +30,21 @@ export default function Resume(props) {
     </div>;
   };
 
-const resumeBullets = [
-    {label: "Education", logoSrc: "education.svg"},
-    {label: "Work History", logoSrc: "work-history.svg"},
-    {label: "Programming Skills", logoSrc: "programming-skills.svg"},
-    {label: "Projects", logoSrc: "projects.svg"},
-    {label: "Interests", logoSrc: "interests.svg"}
-], 
+  const resumeBullets = [
+    { label: "Education", logoSrc: "education.svg" },
+    { label: "Work History", logoSrc: "work-history.svg" },
+    { label: "Programming Skills", logoSrc: "programming-skills.svg" },
+    { label: "Projects", logoSrc: "projects.svg" },
+    { label: "Interests", logoSrc: "interests.svg" },
+  ];
+
+  const programmingSkillDetails = [
+      {skill: "JavaScript", ratingPercentage: 50},
+      {skill: "React", ratingPercentage: 20},
+      {skill: "Node JS", ratingPercentage: 30},
+      {skill: "Mongo DB", ratingPercentage: 90},
+      {skill: "CSS", ratingPercentage: 10},
+  ];
 
 
 
