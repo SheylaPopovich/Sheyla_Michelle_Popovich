@@ -32,3 +32,11 @@ heading-seperator{
     height: 2px;
     background-color: #1f2235; 
 }
+
+.seperator-blob{
+    height: 10px;
+    width: 100%;
+    position:absolute;
+    display: flex;
+    justify-content: center;
+}
