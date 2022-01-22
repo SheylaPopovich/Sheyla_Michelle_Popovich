@@ -19,7 +19,7 @@
   font-family: "Poppins Bold";
 }
 
-heading-seperator {
+.heading-seperator {
   display: flex;
   align-items: center;
   position: relative;
