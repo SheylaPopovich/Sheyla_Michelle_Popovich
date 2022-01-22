@@ -39,14 +39,33 @@ export default function Resume(props) {
   ];
 
   const programmingSkillDetails = [
-      {skill: "JavaScript", ratingPercentage: 50},
-      {skill: "React", ratingPercentage: 20},
-      {skill: "Node JS", ratingPercentage: 30},
-      {skill: "Mongo DB", ratingPercentage: 90},
-      {skill: "CSS", ratingPercentage: 10},
+    { skill: "JavaScript", ratingPercentage: 50 },
+    { skill: "React", ratingPercentage: 20 },
+    { skill: "Node JS", ratingPercentage: 30 },
+    { skill: "Mongo DB", ratingPercentage: 90 },
+    { skill: "CSS", ratingPercentage: 10 },
   ];
 
-
+  const projectDetails = [
+    {
+      title: "Personal Portfolio Website",
+      duration: { fromDate: "2020", toDate: "2021" },
+      description: "This is an area I have to update later when I can",
+      subHeading: "Technologies Used: React JS, Bootstrap",
+    },
+    {
+      title: "Enter New Project Name and Update the Rest",
+      duration: { fromDate: "2020", toDate: "2021" },
+      description: "This is an area I have to update later when I can",
+      subHeading: "Technologies Used: React JS, Bootstrap",
+    },
+    {
+      title: "Enter Second New Project Name and Update the Rest",
+      duration: { fromDate: "2020", toDate: "2021" },
+      description: "This is an area I have to update later when I can",
+      subHeading: "Technologies Used: React JS, Bootstrap",
+    },
+  ];
 
   let fadeInScreenHandler = (screen) => {
     if (screen.fadeScreen !== props.id) return;
