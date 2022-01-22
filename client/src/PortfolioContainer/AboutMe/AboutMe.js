@@ -13,7 +13,7 @@ export default function AboutMe(props) {
 
   const SCREEN_CONSTANTS = {
     description:
-      "Zoox’s fleet management application is an essential tool in the operation of our ever-growing fleet of autonomous robotaxis. We build tools to interact with and monitor our vehicles remotely",
+      "Zoo fleet management application is an essential tool in the operation of our ever-growing fleet of autonomous. We build tools to interact with and monitor our vehicles remotely",
     highlights: {
       bullets: [
         "I can do this",
