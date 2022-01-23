@@ -158,3 +158,11 @@
     width: 70%;
     background-color: #ff5823;
   }
+
+  .skill-percentage .active-percentage-bar {
+    height: 15px;
+    transition: 0.8s ease;
+    position: absolute;
+    background-color: #1f2235;
+  }
+  
