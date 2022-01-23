@@ -94,3 +94,9 @@
   height: 360px;
   width: 100%;
 }
+
+.resume-heading {
+    display: flex;
+    flex-direction: column;
+  }
+  
