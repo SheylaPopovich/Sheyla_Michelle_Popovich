@@ -14,20 +14,25 @@
 }
 
 .resume-bullets {
-    box-shadow: 15px 0 9px -15px #1f2235;
-    height: 100%;
-    width: 320px;
-  }
-  
-  .resume-bullet-details {
-    flex-grow: 1;
-    width: 600px;
-    overflow: hidden;
-    padding: 0 0 0 70px;
+  box-shadow: 15px 0 9px -15px #1f2235;
+  height: 100%;
+  width: 320px;
+}
+
+.resume-bullet-details {
+  flex-grow: 1;
+  width: 600px;
+  overflow: hidden;
+  padding: 0 0 0 70px;
+}
+
+.experience-description {
+  margin: 10px 0 0 0;
+  text-align: justify;
+  max-width: 100%;
+}
+
+.resume-details-carousal {
+    transition: transform 1s ease-out;
   }
 
-
-  .experience-description {
-    margin: 10px 0 0 0;
-    text-align: justify;
-  }
