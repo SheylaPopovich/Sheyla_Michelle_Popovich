@@ -7,7 +7,6 @@ import ScrollService from "../../../utilities/ScrollService";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "./Header.css";
-import index from "react-typical";
 
 export default function Header() {
   const [selectedScreen, setSelectedScreen] = useState(0);
@@ -17,7 +16,10 @@ export default function Header() {
     if (!currentScreen || !currentScreen.screenInView) return;
     let screenIndex = GET_SCREEN_INDEX(currentScreen.screenInView);
     if (screenIndex < 0) return;
+
+    setSelectedScreen(screenIndex);
   };
+
   let currentScreenSubscription =
     ScrollService.currentScreenBroadCaster.subscribe(updateCurrentScreen);
 
@@ -38,7 +40,7 @@ export default function Header() {
     if (index < TOTAL_SCREENS.length - 1) classes += "header-option-seperator";
 
     if (selectedScreen === index) classes += "selected-header-option";
-    return;
+    return classes;
   };
 
   const switchScreen = (index, screen) => {
@@ -63,7 +65,7 @@ export default function Header() {
           <FontAwesomeIcon className="header-hamburger-bars" icon={faBars} />
         </div>
         <div className="header-logo">
-          <span>SHEYLA~</span>
+          <span>SHEYLA.</span>
         </div>
         <div
           className={
