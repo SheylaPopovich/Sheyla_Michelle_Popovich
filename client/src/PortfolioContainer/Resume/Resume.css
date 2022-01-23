@@ -105,3 +105,16 @@
     display: flex;
     justify-content: space-between;
   }
+
+
+  .heading-bullet {
+    position: absolute;
+    left: -30px;
+    height: 15px;
+    width: 15px;
+    top: 5px;
+    border-radius: 50%;
+    background-color: #ff5823;
+  }
+
+  
