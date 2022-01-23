@@ -8,6 +8,15 @@ export default function Resume(props) {
   const [selectedBulletIndex, setSelectedBulletIndex] = useState(0);
   const [carousalOffSetStyle, setCarousalOffSetStyle] = useState({});
 
+
+  let fadeInScreenHandler = (screen) => {
+    if (screen.fadeScreen !== props.id) return;
+    Animations.animations.fadeInScreen(props.id);
+  };
+  const fadeInSubscription =
+    ScrollService.currentScreenFadeIn.subscribe(fadeInScreenHandler);
+
+
   const ResumeHeading = (props) => {
     <div className="resume-heading">
       <div className="resume-main-heading">
@@ -103,56 +112,68 @@ export default function Resume(props) {
       </div>
       <div className="experience-description">
         <span className="resume-description-text">
-           - Please some text here that will be for description
+          - Please some text here that will be for description
         </span>
-        <br/>
+        <br />
         <span className="resume-description-text">
-           - Please some text here that will be for description Please some text here that will be for description
+          - Please some text here that will be for description Please some text
+          here that will be for description
         </span>
-        <br/>
+        <br />
         <span className="resume-description-text">
-           - Please some text here that will be for description Please some text here that will be for description
+          - Please some text here that will be for description Please some text
+          here that will be for description
         </span>
       </div>
-      <div className="resume-screen-container programming-skills-container" key="programming skills">
-          {programmingSkillDetails.map((skill, index)=>{
-              <div className="skill-parent" key={index}>
-                  <div className="heading-bullet"></div>
-                  <span>{skill.skill}</span>
-                  <div className="skill-percentage">
-                      <div style={{width: skill.ratingPercentage + "%"}} className="active-percentage">
-                          
-                      </div>
-                  </div>
-              </div>
-          })}
-      </div>,
+      <div
+        className="resume-screen-container programming-skills-container"
+        key="programming skills"
+      >
+        {programmingSkillDetails.map((skill, index) => {
+          <div className="skill-parent" key={index}>
+            <div className="heading-bullet"></div>
+            <span>{skill.skill}</span>
+            <div className="skill-percentage">
+              <div
+                style={{ width: skill.ratingPercentage + "%" }}
+                className="active-percentage"
+              ></div>
+            </div>
+          </div>;
+        })}
+      </div>
+      ,
       <div className="resume-screen-container" key="projects">
-          {projectDetails.map((projectDetails, index)=>(
-              <ResumeHeading 
-              key={index}
-              heading={projectDetails.title}
-              subHeading={projectDetails.subHeading}
-              description={projectDetails.description}
-              fromDate={projectDetails.duration.fromDate}
-              toDate={projectDetails.duration.toDate}
-              />
-          ))}
-      </div>,
-      <div className="resume-screen-container" key="interests">
-          <ResumeHeading 
+        {projectDetails.map((projectDetails, index) => (
+          <ResumeHeading
+            key={index}
+            heading={projectDetails.title}
+            subHeading={projectDetails.subHeading}
+            description={projectDetails.description}
+            fromDate={projectDetails.duration.fromDate}
+            toDate={projectDetails.duration.toDate}
           />
+        ))}
       </div>
-    </div>
+      ,
+      <div className="resume-screen-container" key="interests">
+        <ResumeHeading
+          heading="Write in a Interest I have"
+          description="Write in this area here a description of what that interest is"
+        />
+        <ResumeHeading
+          heading="Write in a Interest I have"
+          description="Write in this area here a description of what that interest is"
+        />
+        <ResumeHeading
+          heading="Write in a Interest I have"
+          description="Write in this area here a description of what that interest is"
+        />
+      </div>
+    </div>,
   ];
 
-  let fadeInScreenHandler = (screen) => {
-    if (screen.fadeScreen !== props.id) return;
-    Animations.animations.fadeInScreen(props.id);
-  };
-  const fadeInSubscription =
-    ScrollService.currentScreenFadeIn.subscribe(fadeInScreenHandler);
-
+ 
   return (
     <div resume-container screen-container id={props.id || ""}>
       <div className="resume-content">
