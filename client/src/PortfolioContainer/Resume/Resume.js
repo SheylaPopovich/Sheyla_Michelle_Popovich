@@ -120,7 +120,9 @@ export default function Resume(props) {
                   <div className="heading-bullet"></div>
                   <span>{skill.skill}</span>
                   <div className="skill-percentage">
-                      
+                      <div style={{width: skill.ratingPercentage + "%"}} className="active-percentage">
+                          
+                      </div>
                   </div>
               </div>
           })}
