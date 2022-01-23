@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import ScreenHeading from "../../utilities/ScreenHeading/ScreenHeading";
 import ScrollService from "../../utilities/ScrollService";
 import Animations from "../../utilities/Animations";
+import index from "react-typical";
 
 export default function Resume(props) {
   const [selectedBulletIndex, setSelectedBulletIndex] = useState(0);
@@ -112,6 +113,17 @@ export default function Resume(props) {
         <span className="resume-description-text">
            - Please some text here that will be for description Please some text here that will be for description
         </span>
+      </div>
+      <div className="resume-screen-container programming-skills-container" key="programming skills">
+          {programmingSkillDetails.map((skill, index)=>{
+              <div className="skill-parent" key={index}>
+                  <div className="heading-bullet"></div>
+                  <span>{skill.skill}</span>
+                  <div className="skill-percentage">
+                      
+                  </div>
+              </div>
+          })}
       </div>
     </div>,
   ];
