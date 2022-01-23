@@ -69,3 +69,8 @@
     white-space: nowrap;
     font-family: "Poppins SemiBold";
   }
+
+  .bullet-logo {
+    height: 16px;
+    margin: 0 30px 0 0;
+  }
