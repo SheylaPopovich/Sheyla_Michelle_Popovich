@@ -1,15 +1,27 @@
-.resume-container{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
-    min-height: fit-content;
-    margin: 120px 0;
+.resume-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  min-height: fit-content;
+  margin: 120px 0;
 }
 
-
 .resume-card {
-    display: flex;
-    height: 360px;
-    width: 1000px;
+  display: flex;
+  height: 360px;
+  width: 1000px;
+}
+
+.resume-bullets {
+    box-shadow: 15px 0 9px -15px #1f2235;
+    height: 100%;
+    width: 320px;
+  }
+  
+  .resume-bullet-details {
+    flex-grow: 1;
+    width: 600px;
+    overflow: hidden;
+    padding: 0 0 0 80px;
   }
