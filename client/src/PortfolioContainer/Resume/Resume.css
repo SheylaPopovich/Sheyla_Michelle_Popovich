@@ -149,8 +149,12 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
   }
 
-
-  
+  .skill-percentage {
+    position: relative;
+    height: 15px;
+    width: 70%;
+    background-color: #ff5823;
+  }
