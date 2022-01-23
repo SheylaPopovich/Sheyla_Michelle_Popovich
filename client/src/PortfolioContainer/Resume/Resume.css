@@ -83,6 +83,14 @@
 }
 
 .selected-bullet {
-    color: var(--white);
-    width: 100%;
-  }
+  color: var(--white);
+  width: 100%;
+}
+
+.resume-screen-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 360px;
+  width: 100%;
+}
