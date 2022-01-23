@@ -63,3 +63,9 @@
     width: 30px;
     transition: width 0.6s ease;
   }
+
+  .bullet-label {
+    font-size: 14px;
+    white-space: nowrap;
+    font-family: "Poppins SemiBold";
+  }
