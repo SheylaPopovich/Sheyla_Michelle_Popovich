@@ -10,7 +10,17 @@ import Animations from '../../utilities/Animations';
 
 
 export default function Testimonial() {
+
+  let fadeInScreenHandler = (screen) => {
+    if (screen.fadeScreen !== props.id) return;
+    Animations.animations.fadeInScreen(props.id);
+  };
+  const fadeInSubscription =
+    ScrollService.currentScreenFadeIn.subscribe(fadeInScreenHandler);
+
   return (
-<div></div>
+<div>
+  {}
+</div>
   )
 }
