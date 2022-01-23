@@ -173,7 +173,25 @@ export default function Resume(props) {
     </div>,
   ];
 
+  const handleCarousal = (index)=>{
+      let offsetHeight = 360;
+      let newCarousalOffset ={
+          style: { transform: "translateY("+ index * offsetHeight * -1 + "px)"},
+      };
+setCarousalOffSetStyle(newCarousalOffset);
+setSelectedBulletIndex(index);
+  }
  
+const getBullets= ()=>{
+    return resumeBullets.map((bullet, index)=>{
+<div
+    onClick={()=>handleCarousal(index)}
+    className={index === selectedBulletIndex ? "bullet selected-bullet" : "bullet"}>
+</div>
+    })
+}
+
+
   return (
     <div resume-container screen-container id={props.id || ""}>
       <div className="resume-content">
