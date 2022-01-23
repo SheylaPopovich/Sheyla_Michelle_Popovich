@@ -23,5 +23,11 @@
     flex-grow: 1;
     width: 600px;
     overflow: hidden;
-    padding: 0 0 0 80px;
+    padding: 0 0 0 70px;
+  }
+
+
+  .experience-description {
+    margin: 10px 0 0 0;
+    text-align: justify;
   }
