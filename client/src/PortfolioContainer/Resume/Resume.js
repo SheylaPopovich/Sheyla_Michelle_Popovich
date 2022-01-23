@@ -19,22 +19,21 @@ export default function Resume(props) {
     return (
       <div className="resume-heading">
         <div className="resume-main-heading">
-          <div className="heading-bullet">
-            <span>{props.heading ? props.heading : ""}</span>
-            {props.fromDate && props.toDate ? (
-              <div className="heading-date">
-                {props.fromDate + "_" + props.toDate}
-              </div>
-            ) : (
-              <div></div>
-            )}
-          </div>
-          <div className="resume-sub-heading">
-            <span>{props.subHeading ? props.subHeading : ""}</span>
-          </div>
-          <div className="resume-heading-description">
-            <span>{props.description ? props.description : ""}</span>
-          </div>
+          <div className="heading-bullet"></div>
+          <span>{props.heading ? props.heading : ""}</span>
+          {props.fromDate && props.toDate ? (
+            <div className="heading-date">
+              {props.fromDate + "_" + props.toDate}
+            </div>
+          ) : (
+            <div></div>
+          )}
+        </div>
+        <div className="resume-sub-heading">
+          <span>{props.subHeading ? props.subHeading : ""}</span>
+        </div>
+        <div className="resume-heading-description">
+          <span>{props.description ? props.description : ""}</span>
         </div>
       </div>
     );
@@ -99,77 +98,81 @@ export default function Resume(props) {
       />
     </div>,
     <div className="resume-screen-container" key="work-experience">
+      <div className="experience-container">
+        <ResumeHeading
+          heading={"Mayo"}
+          subHeading={"Desk Operations Specialist"}
+          fromDate={"2001"}
+          toDate={"2005"}
+        />
+        <div className="experience-description">
+          <span className="resume-description-text">
+            Change this span to a description
+          </span>
+        </div>
+        <div className="experience-description">
+          <span className="resume-description-text">
+            - Please some text here that will be for description
+          </span>
+          <br />
+          <span className="resume-description-text">
+            - Please some text here that will be for description Please some
+            text here that will be for description
+          </span>
+          <br />
+          <span className="resume-description-text">
+            - Please some text here that will be for description Please some
+            text here that will be for description
+          </span>
+          <br />
+        </div>
+      </div>
+    </div>,
+
+    <div
+      className="resume-screen-container programming-skills-container"
+      key="programming skills"
+    >
+      {programmingSkillDetails.map((skill, index) => (
+        <div className="skill-parent" key={index}>
+          <div className="heading-bullet"></div>
+          <span>{skill.skill}</span>
+          <div className="skill-percentage">
+            <div
+              style={{ width: skill.ratingPercentage + "%" }}
+              className="active-percentage-bar"
+            ></div>
+          </div>
+        </div>
+      ))}
+    </div>,
+
+    <div className="resume-screen-container" key="projects">
+      {projectDetails.map((projectDetails, index) => (
+        <ResumeHeading
+          key={index}
+          heading={projectDetails.title}
+          subHeading={projectDetails.subHeading}
+          description={projectDetails.description}
+          fromDate={projectDetails.duration.fromDate}
+          toDate={projectDetails.duration.toDate}
+        />
+      ))}
+    </div>,
+
+    <div className="resume-screen-container" key="interests">
       <ResumeHeading
-        heading={"Mayo"}
-        subHeading={"Desk Operations Specialist"}
-        fromDate={"2001"}
-        toDate={"2005"}
+        heading="Write in a Interest I have"
+        description="Write in this area here a description of what that interest is"
       />
-      <div className="experience-description">
-        <span className="resume-description-text">
-          Change this span to a description
-        </span>
-      </div>
-      <div className="experience-description">
-        <span className="resume-description-text">
-          - Please some text here that will be for description
-        </span>
-        <br />
-        <span className="resume-description-text">
-          - Please some text here that will be for description Please some text
-          here that will be for description
-        </span>
-        <br />
-        <span className="resume-description-text">
-          - Please some text here that will be for description Please some text
-          here that will be for description
-        </span>
-      </div>
-      <div
-        className="resume-screen-container programming-skills-container"
-        key="programming skills"
-      >
-        {programmingSkillDetails.map((skill, index) => {
-          <div className="skill-parent" key={index}>
-            <div className="heading-bullet"></div>
-            <span>{skill.skill}</span>
-            <div className="skill-percentage">
-              <div
-                style={{ width: skill.ratingPercentage + "%" }}
-                className="active-percentage"
-              ></div>
-            </div>
-          </div>;
-        })}
-      </div>
-      ,
-      <div className="resume-screen-container" key="projects">
-        {projectDetails.map((projectDetails, index) => (
-          <ResumeHeading
-            key={index}
-            heading={projectDetails.title}
-            subHeading={projectDetails.subHeading}
-            description={projectDetails.description}
-            fromDate={projectDetails.duration.fromDate}
-            toDate={projectDetails.duration.toDate}
-          />
-        ))}
-      </div>
-      ,
-      <div className="resume-screen-container" key="interests">
-        <ResumeHeading
-          heading="Write in a Interest I have"
-          description="Write in this area here a description of what that interest is"
-        />
-        <ResumeHeading
-          heading="Write in a Interest I have"
-          description="Write in this area here a description of what that interest is"
-        />
-        <ResumeHeading
-          heading="Write in a Interest I have"
-          description="Write in this area here a description of what that interest is"
-        />
-      </div>
+      <ResumeHeading
+        heading="Write in a Interest I have"
+        description="Write in this area here a description of what that interest is"
+      />
+      <ResumeHeading
+        heading="Write in a Interest I have"
+        description="Write in this area here a description of what that interest is"
+      />
     </div>,
   ];
 
@@ -193,9 +196,10 @@ export default function Resume(props) {
       >
         <img
           className="bullet-logo"
-          src={require(`../../assets/Resume/${bullet.logoSrc}`).default}
+          src={require(`../../assets/Resume/${bullet.logoSrc}`)}
           alt="oops... no internet connection"
         />
+        <span className="bullet-label">{bullet.label}</span>
       </div>
     ));
   };
@@ -222,6 +226,7 @@ export default function Resume(props) {
               <div className="bullets">{getBullets()}</div>
             </div>
           </div>
+
           <div className="resume-bullet-details">{getResumeScreen()}</div>
         </div>
       </div>

@@ -5,6 +5,7 @@ import Animations from "../../utilities/Animations";
 import "./AboutMe.css";
 
 export default function AboutMe(props) {
+  
   let fadeInScreenHandler = (screen) => {
     if (screen.fadeScreen !== props.id) return;
     Animations.animations.fadeInScreen(props.id);
@@ -26,12 +27,14 @@ export default function AboutMe(props) {
   };
 
   const renderHighlights = () => {
-    return SCREEN_CONSTANTS.highlights.bullets.map((value, i) => (
+    return (
+       SCREEN_CONSTANTS.highlights.bullets.map((value, i) => (
       <div className="highlight" key={i}>
         <div className="highlight-blob"></div>
         <span>{value}</span>
       </div>
-    ));
+    ))
+    )
   };
 
   return (
@@ -51,7 +54,7 @@ export default function AboutMe(props) {
               {renderHighlights()}
             </div>
             <div className="about-me-options">
-              <button className="btn primary-btn"> Hire Me </button>
+              <button className="btn primary-btn" onClick={() => ScrollService.scrollHandler.scrollToHireMe()}> Hire Me </button>
               <a
                 href="Sheyla_Popovich_Resume.pdf"
                 download="Sheyla_Popovich_Resume.pdf "
