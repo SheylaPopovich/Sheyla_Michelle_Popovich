@@ -143,3 +143,14 @@
     position: relative;
     width: 50%;
   }
+
+  .programming-skills-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+  }
+
+
+  
