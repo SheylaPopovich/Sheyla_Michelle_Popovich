@@ -81,3 +81,8 @@
   background-color: #1f2235;
   position: absolute;
 }
+
+.selected-bullet {
+    color: var(--white);
+    width: 100%;
+  }
