@@ -4,6 +4,10 @@ import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
 
 
+import ScreenHeading from "../../utilities/ScreenHeading/ScreenHeading";
+import ScrollService from  "../../utilities/ScrollService";
+
+
 
 export default function Testimonial() {
   return (
