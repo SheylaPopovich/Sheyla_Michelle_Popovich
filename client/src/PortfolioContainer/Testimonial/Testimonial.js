@@ -9,7 +9,7 @@ import ScrollService from  "../../utilities/ScrollService";
 import Animations from '../../utilities/Animations';
 
 
-export default function Testimonial() {
+export default function Testimonial(props) {
 
   let fadeInScreenHandler = (screen) => {
     if (screen.fadeScreen !== props.id) return;
@@ -20,7 +20,13 @@ export default function Testimonial() {
 
   return (
 <div>
-  {}
+  <ScreenHeading
+  title={'Testimonial'}
+  subHeading={'What My Client Say About Me'}
+  />
+  <section className='testimonial-section' id={props.id || ""}>
+
+  </section>
 </div>
   )
 }
