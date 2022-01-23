@@ -100,3 +100,8 @@
     flex-direction: column;
   }
   
+  .resume-main-heading {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+  }
