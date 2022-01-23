@@ -126,8 +126,24 @@ export default function Resume(props) {
                   </div>
               </div>
           })}
+      </div>,
+      <div className="resume-screen-container" key="projects">
+          {projectDetails.map((projectDetails, index)=>(
+              <ResumeHeading 
+              key={index}
+              heading={projectDetails.title}
+              subHeading={projectDetails.subHeading}
+              description={projectDetails.description}
+              fromDate={projectDetails.duration.fromDate}
+              toDate={projectDetails.duration.toDate}
+              />
+          ))}
+      </div>,
+      <div className="resume-screen-container" key="interests">
+          <ResumeHeading 
+          />
       </div>
-    </div>,
+    </div>
   ];
 
   let fadeInScreenHandler = (screen) => {
