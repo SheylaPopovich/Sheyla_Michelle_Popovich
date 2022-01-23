@@ -8,14 +8,12 @@ export default function Resume(props) {
   const [selectedBulletIndex, setSelectedBulletIndex] = useState(0);
   const [carousalOffSetStyle, setCarousalOffSetStyle] = useState({});
 
-
   let fadeInScreenHandler = (screen) => {
     if (screen.fadeScreen !== props.id) return;
     Animations.animations.fadeInScreen(props.id);
   };
   const fadeInSubscription =
     ScrollService.currentScreenFadeIn.subscribe(fadeInScreenHandler);
-
 
   const ResumeHeading = (props) => {
     <div className="resume-heading">
@@ -173,23 +171,43 @@ export default function Resume(props) {
     </div>,
   ];
 
-  const handleCarousal = (index)=>{
-      let offsetHeight = 360;
-      let newCarousalOffset ={
-          style: { transform: "translateY("+ index * offsetHeight * -1 + "px)"},
-      };
-setCarousalOffSetStyle(newCarousalOffset);
-setSelectedBulletIndex(index);
+  const handleCarousal = (index) => {
+    let offsetHeight = 360;
+    let newCarousalOffset = {
+      style: { transform: "translateY(" + index * offsetHeight * -1 + "px)" },
+    };
+    setCarousalOffSetStyle(newCarousalOffset);
+    setSelectedBulletIndex(index);
+  };
+
+  const getBullets = () => {
+    return resumeBullets.map((bullet, index) => (
+      <div
+        onClick={() => handleCarousal(index)}
+        className={
+          index === selectedBulletIndex ? "bullet selected-bullet" : "bullet"
+        }
+        key={index}
+      >
+        <img
+          className="bullet-logo"
+          src={require(`../../assets/Resume/${bullet.logoSrc}`)}
+          alt="oops... no internet connection"
+        />
+      </div>
+    ));
   }
- 
-const getBullets= ()=>{
-    return resumeBullets.map((bullet, index)=>{
-<div
-    onClick={()=>handleCarousal(index)}
-    className={index === selectedBulletIndex ? "bullet selected-bullet" : "bullet"}>
-</div>
-    })
-}
+
+const getResumeScreen =()=>{
+    return(
+        <div style={carousalOffSetStyle.style}
+        className="resume-details-carousal"
+        >
+{resumeDetails.map((ResumeDetail) => ResumeDetail)}
+        </div>
+    );
+};
+
 
 
   return (
