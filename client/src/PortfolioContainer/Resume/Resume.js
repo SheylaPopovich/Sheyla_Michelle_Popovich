@@ -16,26 +16,28 @@ export default function Resume(props) {
     ScrollService.currentScreenFadeIn.subscribe(fadeInScreenHandler);
 
   const ResumeHeading = (props) => {
-    <div className="resume-heading">
-      <div className="resume-main-heading">
-        <div className="heading-bullet">
-          <span>{props.heading ? props.heading : ""}</span>
-          {props.fromDate && props.toDate ? (
-            <div className="heading-date">
-              {props.fromDate + "_" + props.toDate}
-            </div>
-          ) : (
-            <div></div>
-          )}
-        </div>
-        <div className="resume-sub-heading">
-          <span>{props.subHeading ? props.subHeading : ""}</span>
-        </div>
-        <div className="resume-heading-description">
-          <span>{props.description ? props.description : ""}</span>
+    return (
+      <div className="resume-heading">
+        <div className="resume-main-heading">
+          <div className="heading-bullet">
+            <span>{props.heading ? props.heading : ""}</span>
+            {props.fromDate && props.toDate ? (
+              <div className="heading-date">
+                {props.fromDate + "_" + props.toDate}
+              </div>
+            ) : (
+              <div></div>
+            )}
+          </div>
+          <div className="resume-sub-heading">
+            <span>{props.subHeading ? props.subHeading : ""}</span>
+          </div>
+          <div className="resume-heading-description">
+            <span>{props.description ? props.description : ""}</span>
+          </div>
         </div>
       </div>
-    </div>;
+    );
   };
 
   const resumeBullets = [
@@ -196,24 +198,32 @@ export default function Resume(props) {
         />
       </div>
     ));
-  }
+  };
 
-const getResumeScreen =()=>{
-    return(
-        <div style={carousalOffSetStyle.style}
+  const getResumeScreen = () => {
+    return (
+      <div
+        style={carousalOffSetStyle.style}
         className="resume-details-carousal"
-        >
-{resumeDetails.map((ResumeDetail) => ResumeDetail)}
-        </div>
+      >
+        {resumeDetails.map((ResumeDetail) => ResumeDetail)}
+      </div>
     );
-};
-
-
+  };
 
   return (
     <div resume-container screen-container id={props.id || ""}>
       <div className="resume-content">
         <ScreenHeading title={"Resume"} subHeading={"My Formal Bio Details"} />
+        <div className="resume-card">
+          <div className="resume-bullets">
+            <div className="bullet-container">
+              <div className="bullet-icons"></div>
+              <div className="bullets">{getBullets()}</div>
+            </div>
+          </div>
+          <div className="resume-bullet-details">{getResumeScreen()}</div>
+        </div>
       </div>
     </div>
   );
