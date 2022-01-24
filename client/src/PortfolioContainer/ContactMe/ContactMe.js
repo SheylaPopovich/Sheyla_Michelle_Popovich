@@ -6,6 +6,7 @@ import load1 from "../../../src/images/load2.gif";
 import ScreenHeading from "../../utilities/ScreenHeading/ScreenHeading";
 import ScrollService from "../../utilities/ScrollService";
 import Animations from "../../utilities/Animations";
+import "./ContactMe.css"
 
 export default function ContactMe(props) {
   let fadeInScreenHandler = (screen) => {
@@ -28,7 +29,7 @@ export default function ContactMe(props) {
     setName(e.target.value);
   };
   const handleMessage = (e) => {
-    setName(e.target.value);
+    setMessage(e.target.value);
   };
 
   return (
@@ -82,9 +83,9 @@ export default function ContactMe(props) {
             <label htmlFor="name">Name</label>
             <input type="text" onChange={handleName} value={name} />
             <label htmlFor="email">Email</label>
-            <input type="email" />
+            <input type="email" onChange={handleEmail} value={email} />
             <label htmlFor="message">Message</label>
-            <textarea type="text" />
+            <textarea type="text" onChange={handleMessage} value={message} />
             <div className="send-btn">
               <button type="submit">
                 Send <i className="fa fa-paper-plane" />
