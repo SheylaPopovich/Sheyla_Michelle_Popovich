@@ -21,6 +21,8 @@ export const TOTAL_SCREENS = [
     component: Testimonial,
   },
 ];
+
+
 export const GET_SCREEN_INDEX = (screen_name) => {
   if (!screen_name) return -1;
   for (let i = 0; i < TOTAL_SCREENS.length; i++) {
