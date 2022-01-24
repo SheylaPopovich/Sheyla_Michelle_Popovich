@@ -6,7 +6,6 @@ import load1 from "../../../src/images/load2.gif";
 import ScreenHeading from "../../utilities/ScreenHeading/ScreenHeading";
 import ScrollService from "../../utilities/ScrollService";
 import Animations from "../../utilities/Animations";
-import { useState } from "react";
 
 export default function ContactMe(props) {
   let fadeInScreenHandler = (screen) => {
@@ -21,6 +20,16 @@ export default function ContactMe(props) {
   const [message, setMessage] = useState("");
   const [banner, setBanner] = useState("");
   const [bool, setBoolean] = useState(false);
+
+  const handleName = (e) => {
+    setName(e.target.value);
+  };
+  const handleEmail = (e) => {
+    setName(e.target.value);
+  };
+  const handleMessage = (e) => {
+    setName(e.target.value);
+  };
 
   return (
     <div className="main-container" id={props.id || ""}>
@@ -71,11 +80,16 @@ export default function ContactMe(props) {
           <form>
             <p>{banner}</p>
             <label htmlFor="name">Name</label>
-            <input type="text" />
+            <input type="text" onChange={handleName} value={name} />
             <label htmlFor="email">Email</label>
             <input type="email" />
             <label htmlFor="message">Message</label>
-            <input type="text" />
+            <textarea type="text" />
+            <div className="send-btn">
+              <button type="submit">
+                Send <i className="fa fa-paper-plane" />
+              </button>
+            </div>
           </form>
         </div>
       </div>
