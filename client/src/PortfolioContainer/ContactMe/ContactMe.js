@@ -34,6 +34,18 @@ export default function ContactMe(props) {
 
   const submitForm =(e)=>{
     e.preventDefault();
+    try {
+      let data ={
+        name,
+        email,
+        message,
+      };
+      setBoolean(true)
+      const res= axios.post(`/contact`, data)
+    } catch (error) {
+      
+    }
+   
   }
 
 
