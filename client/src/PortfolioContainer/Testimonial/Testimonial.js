@@ -15,6 +15,17 @@ export default function Testimonial(props) {
   const fadeInSubscription =
     ScrollService.currentScreenFadeIn.subscribe(fadeInScreenHandler);
 
+    const options={
+      loop: true,
+      margin: 0,
+      nav: true,
+      animateIn: "bounceInRight",
+      animateOut: "bounceOutRight",
+      dots: true,
+      autoplay: true,
+      smartSpeed: 1000,
+    }
+
   return (
     <div>
       <ScreenHeading
@@ -36,29 +47,33 @@ export default function Testimonial(props) {
                     </p>
                     <ul className="stars list-unstyled">
                       <li>
-                        <i className="fa fa-star"/>
+                        <i className="fa fa-star" />
                       </li>
                       <li>
-                        <i className="fa fa-star"/>
+                        <i className="fa fa-star" />
                       </li>
                       <li>
-                        <i className="fa fa-star"/>
+                        <i className="fa fa-star" />
                       </li>
                       <li>
-                        <i className="fa fa-star-half-alt"/>
+                        <i className="fa fa-star-half-alt" />
                       </li>
                       <li>
-                        <i className="fa fa-star"/>
+                        <i className="fa fa-star" />
                       </li>
                     </ul>
                   </div>
                   <div className="client-info">
-    <img src="img/testimonial/lady.png" alt="no internet connection"></img>
-    <h5>Stephanie Popovich</h5>
-    <p>The Wife</p>
+                    <img
+                      src="img/testimonial/lady.png"
+                      alt="no internet connection"
+                    ></img>
+                    <h5>Stephanie Popovich</h5>
+                    <p>The Wife</p>
                   </div>
                 </div>
-              </div><div className="col-lg-12">
+              </div>
+              <div className="col-lg-12">
                 <div className="testi-item">
                   <div className="testi-comment">
                     <p>
@@ -69,29 +84,33 @@ export default function Testimonial(props) {
                     </p>
                     <ul className="stars list-unstyled">
                       <li>
-                        <i className="fa fa-star"/>
+                        <i className="fa fa-star" />
                       </li>
                       <li>
-                        <i className="fa fa-star"/>
+                        <i className="fa fa-star" />
                       </li>
                       <li>
-                        <i className="fa fa-star"/>
+                        <i className="fa fa-star" />
                       </li>
                       <li>
-                        <i className="fa fa-star-half-alt"/>
+                        <i className="fa fa-star-half-alt" />
                       </li>
                       <li>
-                        <i className="fa fa-star"/>
+                        <i className="fa fa-star" />
                       </li>
                     </ul>
                   </div>
                   <div className="client-info">
-    <img src="img/testimonial/lady.png" alt="no internet connection"></img>
-    <h5>Stephanie Popovich</h5>
-    <p>The Wife</p>
+                    <img
+                      src="img/testimonial/lady.png"
+                      alt="no internet connection"
+                    ></img>
+                    <h5>Stephanie Popovich</h5>
+                    <p>The Wife</p>
                   </div>
                 </div>
-              </div><div className="col-lg-12">
+              </div>
+              <div className="col-lg-12">
                 <div className="testi-item">
                   <div className="testi-comment">
                     <p>
@@ -102,26 +121,29 @@ export default function Testimonial(props) {
                     </p>
                     <ul className="stars list-unstyled">
                       <li>
-                        <i className="fa fa-star"/>
+                        <i className="fa fa-star" />
                       </li>
                       <li>
-                        <i className="fa fa-star"/>
+                        <i className="fa fa-star" />
                       </li>
                       <li>
-                        <i className="fa fa-star"/>
+                        <i className="fa fa-star" />
                       </li>
                       <li>
-                        <i className="fa fa-star-half-alt"/>
+                        <i className="fa fa-star-half-alt" />
                       </li>
                       <li>
-                        <i className="fa fa-star"/>
+                        <i className="fa fa-star" />
                       </li>
                     </ul>
                   </div>
                   <div className="client-info">
-    <img src="img/testimonial/lady.png" alt="no internet connection"></img>
-    <h5>Stephanie Popovich</h5>
-    <p>The Wife</p>
+                    <img
+                      src="img/testimonial/lady.png"
+                      alt="no internet connection"
+                    ></img>
+                    <h5>Stephanie Popovich</h5>
+                    <p>The Wife</p>
                   </div>
                 </div>
               </div>
