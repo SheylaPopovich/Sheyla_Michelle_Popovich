@@ -54,6 +54,74 @@ export default function Testimonial(props) {
                   </div>
                   <div className="client-info">
     <img src="img/testimonial/lady.png" alt="no internet connection"></img>
+    <h5>Stephanie Popovich</h5>
+    <p>The Wife</p>
+                  </div>
+                </div>
+              </div><div className="col-lg-12">
+                <div className="testi-item">
+                  <div className="testi-comment">
+                    <p>
+                      {" "}
+                      <i className="fa fa-quote-left" />
+                      Type in what Micheal wrote.
+                      <i className="fa fa-quote-right" />
+                    </p>
+                    <ul className="stars list-unstyled">
+                      <li>
+                        <i className="fa fa-star"/>
+                      </li>
+                      <li>
+                        <i className="fa fa-star"/>
+                      </li>
+                      <li>
+                        <i className="fa fa-star"/>
+                      </li>
+                      <li>
+                        <i className="fa fa-star-half-alt"/>
+                      </li>
+                      <li>
+                        <i className="fa fa-star"/>
+                      </li>
+                    </ul>
+                  </div>
+                  <div className="client-info">
+    <img src="img/testimonial/lady.png" alt="no internet connection"></img>
+    <h5>Stephanie Popovich</h5>
+    <p>The Wife</p>
+                  </div>
+                </div>
+              </div><div className="col-lg-12">
+                <div className="testi-item">
+                  <div className="testi-comment">
+                    <p>
+                      {" "}
+                      <i className="fa fa-quote-left" />
+                      Type in what Micheal wrote.
+                      <i className="fa fa-quote-right" />
+                    </p>
+                    <ul className="stars list-unstyled">
+                      <li>
+                        <i className="fa fa-star"/>
+                      </li>
+                      <li>
+                        <i className="fa fa-star"/>
+                      </li>
+                      <li>
+                        <i className="fa fa-star"/>
+                      </li>
+                      <li>
+                        <i className="fa fa-star-half-alt"/>
+                      </li>
+                      <li>
+                        <i className="fa fa-star"/>
+                      </li>
+                    </ul>
+                  </div>
+                  <div className="client-info">
+    <img src="img/testimonial/lady.png" alt="no internet connection"></img>
+    <h5>Stephanie Popovich</h5>
+    <p>The Wife</p>
                   </div>
                 </div>
               </div>
