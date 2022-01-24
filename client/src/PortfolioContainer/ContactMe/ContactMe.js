@@ -32,6 +32,11 @@ export default function ContactMe(props) {
     setMessage(e.target.value);
   };
 
+  const submitForm =(e)=>{
+    e.preventDefault();
+  }
+
+
   return (
     <div className="main-container" id={props.id || ""}>
       <ScreenHeading subHeading={"Let's keep in Touch"}  title={props.screenName ? props.screenName : ""}/>
@@ -79,7 +84,7 @@ export default function ContactMe(props) {
             <h4>Send Your Email Here!</h4>
             <img src={imgBack} alt="image not found" />
           </div>
-          <form >
+          <form onSubmit={submitForm}>
             <p>{banner}</p>
             <label htmlFor="name">Name</label>
             <input type="text" onChange={handleName} value={name} />
