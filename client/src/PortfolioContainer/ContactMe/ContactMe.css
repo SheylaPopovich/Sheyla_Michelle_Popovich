@@ -97,8 +97,37 @@ form button {
     outline: none;
     width: 160px;
     border:  2px solid var(--dark-orange);
-    font-size: 12px;
+    font-size: 18px;
     border-radius: 19px;
     background-color: #1f2235;
     color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+
+form button:hover {
+background-color: #1f2235;
+transition: all ease 1s;
+border: 2px solid #1f2235;
+}
+
+.img-back {
+    flex: 1;
+    align-self: center;
+    margin-right: 20px;
+}
+
+form{
+    flex: 0.9;
+}
+
+.col i{
+    padding: 7px;
+    color: white;
+}
+
+
+.col i:hover{
+   transform: scale(1.5);
 }
