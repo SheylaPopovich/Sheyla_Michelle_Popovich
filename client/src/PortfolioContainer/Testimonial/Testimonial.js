@@ -6,6 +6,7 @@ import "owl.carousel/dist/assets/owl.theme.default.css";
 import ScreenHeading from "../../utilities/ScreenHeading/ScreenHeading";
 import ScrollService from "../../utilities/ScrollService";
 import Animations from "../../utilities/Animations";
+import "./Testimonial.css";
 
 export default function Testimonial(props) {
   let fadeInScreenHandler = (screen) => {
@@ -46,7 +47,11 @@ export default function Testimonial(props) {
       <section className="testimonial-section" id={props.id || ""}>
         <div className="container">
           <div className="row">
-            <OwlCarousel className="owl-carousel" id="testimonial-carousel">
+            <OwlCarousel
+              className="owl-carousel"
+              id="testimonial-carousel"
+              {...options}
+            >
               <div className="col-lg-12">
                 <div className="testi-item">
                   <div className="testi-comment">
