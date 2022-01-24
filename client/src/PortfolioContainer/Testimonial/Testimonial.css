@@ -48,4 +48,26 @@ border-radius: 50px 50px 50px 0px;
     font-style: italic;
 }
 
-.testimonial-section .testi-item p
+.testimonial-section .testi-item p .fa-quote-left{
+    margin-right: 5px;
+    color: tomato;
+}
+
+.testimonial-section .testi-item p .fa-quote-right{
+    margin-left: 5px;
+    color: tomato;
+}
+
+.testimonial-section .testi-item  .stars {
+    margin: 0 0 20px;
+}
+
+.testimonial-section .testi-item  .stars li{
+    display: inline-block;
+    margin: 0 1px;
+}
+
+.testimonial-section .testi-item  .stars li i{
+    font-size: 13px;
+    color: tomato;
+}
