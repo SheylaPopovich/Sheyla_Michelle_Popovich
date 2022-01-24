@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Typical from "react-typical";
+import axios from "axios";
 
 import imgBack from "../../../src/images/mailz.jpeg";
 import load1 from "../../../src/images/load2.gif";
