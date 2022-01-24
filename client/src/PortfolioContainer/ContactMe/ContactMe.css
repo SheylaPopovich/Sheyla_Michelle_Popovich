@@ -131,6 +131,16 @@ form {
   transform: scale(1.5);
 }
 
+button .load {
+  width: 100%;
+}
+
+button .load img {
+  width: 60px;
+  padding-left: 10px;
+  border-radius: 10px ;
+}
+
 @media screen and (min-width: 940px) {
   .back-form {
     max-width: 1100px;
