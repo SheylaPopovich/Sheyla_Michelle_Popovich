@@ -17,6 +17,7 @@
   color: white;
   letter-spacing: 0.2rem;
   margin-bottom: 20px;
+  font-family: "Poppins Bold";
 }
 
 .back-form {
@@ -65,10 +66,11 @@ form p {
 form label {
   margin-bottom: 5px;
   color: #111;
-  letter-spacing: 00.2rem;
+  letter-spacing: 0.2rem;
 }
 
-form input textarea {
+form input,
+textarea {
   width: 100%;
   border: 2px solid rgba(0, 0, 0, 0);
   outline: none;
@@ -80,54 +82,51 @@ form input textarea {
   transition: 0.3s;
 }
 
-
 textarea:focus {
-    border: 2px solid rgba(30, 85, 250, 0.47);
-    background-color: white;
+  border: 2px solid rgba(30, 85, 250, 0.47);
+  background-color: white;
 }
 
-input:focus{
-    border: 2px solid rgba(30, 85, 250, 0.47);
-    background-color: white;
+form input:focus {
+  border: 2px solid rgba(30, 85, 250, 0.47);
+  background-color: white;
 }
 
 form button {
-    margin-top: 15px;
-    padding: 5px;
-    outline: none;
-    width: 160px;
-    border:  2px solid var(--dark-orange);
-    font-size: 18px;
-    border-radius: 19px;
-    background-color: #1f2235;
-    color: white;
-    align-items: center;
-    justify-content: center;
+  margin-top: 15px;
+  padding: 5px;
+  outline: none;
+  width: 160px;
+  border: 2px solid var(--dark-orange);
+  font-size: 18px;
+  border-radius: 19px;
+  background-color: #1f2235;
+  color: white;
+  align-items: center;
+  justify-content: center;
 }
 
-
 form button:hover {
-background-color: #1f2235;
-transition: all ease 1s;
-border: 2px solid #1f2235;
+  background-color: #1f2235;
+  transition: all ease 1s;
+  border: 2px solid #1f2235;
 }
 
 .img-back {
-    flex: 1;
-    align-self: center;
-    margin-right: 20px;
+  flex: 1;
+  align-self: center;
+  margin-right: 20px;
 }
 
-form{
-    flex: 0.9;
+form {
+  flex: 0.9;
 }
 
-.col i{
-    padding: 7px;
-    color: white;
+.col i {
+  padding: 7px;
+  color: white;
 }
 
-
-.col i:hover{
-   transform: scale(1.5);
+.col i:hover {
+  transform: scale(1.5);
 }
