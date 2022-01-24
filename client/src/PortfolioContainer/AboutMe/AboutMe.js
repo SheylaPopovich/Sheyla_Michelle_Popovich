@@ -5,9 +5,8 @@ import Animations from "../../utilities/Animations";
 import "./AboutMe.css";
 
 export default function AboutMe(props) {
-  
   let fadeInScreenHandler = (screen) => {
-    if (screen.fadeScreen !== props.id) return;
+    if (screen.fadeInScreen !== props.id) return;
     Animations.animations.fadeInScreen(props.id);
   };
   const fadeInSubscription =
@@ -27,18 +26,19 @@ export default function AboutMe(props) {
   };
 
   const renderHighlights = () => {
-    return (
-       SCREEN_CONSTANTS.highlights.bullets.map((value, i) => (
+    return SCREEN_CONSTANTS.highlights.bullets.map((value, i) => (
       <div className="highlight" key={i}>
         <div className="highlight-blob"></div>
         <span>{value}</span>
       </div>
-    ))
-    )
+    ));
   };
 
   return (
-    <div className="about-me-container screen-container" id={props.id || ""}>
+    <div
+      className="about-me-container screen-container fade-in"
+      id={props.id || ""}
+    >
       <div className="about-me-parent">
         <ScreenHeading title={"About Me"} subHeading={"Why Choose Me?"} />
         <div className="about-me-card">
@@ -54,7 +54,13 @@ export default function AboutMe(props) {
               {renderHighlights()}
             </div>
             <div className="about-me-options">
-              <button className="btn primary-btn" onClick={() => ScrollService.scrollHandler.scrollToHireMe()}> Hire Me </button>
+              <button
+                className="btn primary-btn"
+                onClick={() => ScrollService.scrollHandler.scrollToHireMe()}
+              >
+                {" "}
+                Hire Me{" "}
+              </button>
               <a
                 href="Sheyla_Popovich_Resume.pdf"
                 download="Sheyla_Popovich_Resume.pdf "
