@@ -34,9 +34,15 @@ export default function Testimonial(props) {
                       Type in what Micheal wrote.
                       <i className="fa fa-quote-right" />
                     </p>
-                    <ul>
+                    <ul className="stars list-unstyled">
                       <li>
-                        
+                        <i className="fa fa-star"/>
+                      </li>
+                      <li>
+                        <i className="fa fa-star"/>
+                      </li>
+                      <li>
+                        <i className="fa fa-star"/>
                       </li>
                     </ul>
                   </div>
