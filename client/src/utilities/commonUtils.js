@@ -21,8 +21,11 @@ export const TOTAL_SCREENS = [
     screen_name: "Testimonial",
     component: Testimonial,
   },
+  {
+    screen_name: "ContactMe",
+    component: ContactMe,
+  },
 ];
-
 
 export const GET_SCREEN_INDEX = (screen_name) => {
   if (!screen_name) return -1;
