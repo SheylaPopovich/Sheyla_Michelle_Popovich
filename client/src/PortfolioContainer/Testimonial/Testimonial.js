@@ -44,7 +44,16 @@ export default function Testimonial(props) {
                       <li>
                         <i className="fa fa-star"/>
                       </li>
+                      <li>
+                        <i className="fa fa-star-half-alt"/>
+                      </li>
+                      <li>
+                        <i className="fa fa-star"/>
+                      </li>
                     </ul>
+                  </div>
+                  <div className="client-info">
+    <img src="img/testimonial/lady.png" alt="no internet connection"></img>
                   </div>
                 </div>
               </div>
