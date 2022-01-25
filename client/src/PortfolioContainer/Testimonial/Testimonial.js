@@ -8,7 +8,7 @@ import ScrollService from "../../utilities/ScrollService";
 import Animations from "../../utilities/Animations";
 import "./Testimonial.css";
 import lady from "../../../src/img/Testimonial/lady.png";
-
+import footer from "../../../src/img/Testimonial/shape-bg.png"
 
 
 
@@ -170,7 +170,7 @@ export default function Testimonial(props) {
         </div>
       </section>
       <div>
-        <img src={} alt="image not responding" />
+        <img src={footer} alt="image not responding" />
       </div>
     </div>
   );
