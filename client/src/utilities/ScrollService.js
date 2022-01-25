@@ -22,7 +22,7 @@ export default class ScrollService {
   isElementInView = (elem, type) => {
     let rec = elem.getBoundingClientReact();
     let elementTop = rec.top;
-    let elementBottom = rec.Bottom;
+    let elementBottom = rec.bottom;
 
     let partiallyVisible =
       elementTop < window.innerHeight && elementBottom >= 0;

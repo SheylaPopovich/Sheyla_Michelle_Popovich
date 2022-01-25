@@ -4,6 +4,7 @@ import ScrollService from "../../utilities/ScrollService";
 import Animations from "../../utilities/Animations";
 import "./AboutMe.css";
 
+
 export default function AboutMe(props) {
   let fadeInScreenHandler = (screen) => {
     if (screen.fadeInScreen !== props.id) return;
@@ -34,9 +35,15 @@ export default function AboutMe(props) {
     ));
   };
 
+  useEffect(() => {
+    return () => {
+      fadeInSubscription.unsubscribe();
+    };
+  }, [fadeInSubscription]);
+
   return (
     <div
-      className="about-me-container screen-container fade-in"
+      className="about-me-container screen-container"  
       id={props.id || ""}
     >
       <div className="about-me-parent">
@@ -58,8 +65,8 @@ export default function AboutMe(props) {
                 className="btn primary-btn"
                 onClick={() => ScrollService.scrollHandler.scrollToHireMe()}
               >
-                {" "}
-                Hire Me{" "}
+                
+                Hire Me
               </button>
               <a
                 href="Sheyla_Popovich_Resume.pdf"

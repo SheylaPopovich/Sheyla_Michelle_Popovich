@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import OwlCarousel from "react-owl-carousel";
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
@@ -10,7 +10,7 @@ import "./Testimonial.css";
 
 export default function Testimonial(props) {
   let fadeInScreenHandler = (screen) => {
-    if (screen.fadeScreen !== props.id) return;
+    if (screen.fadeInScreen !== props.id) return;
     Animations.animations.fadeInScreen(props.id);
   };
   const fadeInSubscription =
@@ -37,6 +37,14 @@ export default function Testimonial(props) {
       },
     },
   };
+
+  useEffect(() => {
+    return () => {
+        /* UNSUBSCRIBE THE SUBSCRIPTIONS */
+        fadeInSubscription.unsubscribe();
+    }
+  }, [fadeInSubscription]);
+
 
   return (
     <div>
