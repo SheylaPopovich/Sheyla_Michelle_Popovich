@@ -7,6 +7,9 @@ import ScreenHeading from "../../utilities/ScreenHeading/ScreenHeading";
 import ScrollService from "../../utilities/ScrollService";
 import Animations from "../../utilities/Animations";
 import "./Testimonial.css";
+import lady from "../../../src/img/Testimonial/lady.png";
+
+
 
 export default function Testimonial(props) {
   let fadeInScreenHandler = (screen) => {
@@ -89,7 +92,7 @@ export default function Testimonial(props) {
                   </div>
                   <div className="client-info">
                     <img
-                      src="img/testimonial/lady.png"
+                      src={lady}
                       alt="no internet connection"
                     ></img>
                     <h5>Stephanie Popovich</h5>
@@ -126,7 +129,7 @@ export default function Testimonial(props) {
                   </div>
                   <div className="client-info">
                     <img
-                      src="img/testimonial/lady.png"
+                      src={lady}
                       alt="no internet connection"
                     ></img>
                     <h5>Stephanie Popovich</h5>
@@ -163,7 +166,7 @@ export default function Testimonial(props) {
                   </div>
                   <div className="client-info">
                     <img
-                      src="img/testimonial/lady.png"
+                      src={lady}
                       alt="no internet connection"
                     ></img>
                     <h5>Stephanie Popovich</h5>
