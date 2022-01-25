@@ -6,5 +6,7 @@ const { asapScheduler } = require("rxjs");
 
 const app = express();
 
+
+//creating the middleware
 app.use(express.json())
 app.use(cors())
