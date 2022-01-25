@@ -32,7 +32,11 @@ router.post('/contact', (req,res)=> {
             `
         }
         smtpTransporter.sendMail(mailOptions, ()=>{
-            
+            try {
+                
+            } catch (error) {
+                
+            }
         })
     }
 })
