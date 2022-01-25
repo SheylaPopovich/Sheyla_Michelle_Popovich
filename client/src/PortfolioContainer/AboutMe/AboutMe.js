@@ -4,8 +4,7 @@ import ScrollService from "../../utilities/ScrollService";
 import Animations from "../../utilities/Animations";
 import "./AboutMe.css";
 
-
-export default function AboutMe(props) {
+export default function AboutMe(props){
   let fadeInScreenHandler = (screen) => {
     if (screen.fadeInScreen !== props.id) return;
     Animations.animations.fadeInScreen(props.id);
@@ -42,10 +41,7 @@ export default function AboutMe(props) {
   }, [fadeInSubscription]);
 
   return (
-    <div
-      className="about-me-container screen-container"  
-      id={props.id || ""}
-    >
+    <div className="about-me-container screen-container" id={props.id || ""}>
       <div className="about-me-parent">
         <ScreenHeading title={"About Me"} subHeading={"Why Choose Me?"} />
         <div className="about-me-card">
@@ -65,7 +61,6 @@ export default function AboutMe(props) {
                 className="btn primary-btn"
                 onClick={() => ScrollService.scrollHandler.scrollToHireMe()}
               >
-                
                 Hire Me
               </button>
               <a
