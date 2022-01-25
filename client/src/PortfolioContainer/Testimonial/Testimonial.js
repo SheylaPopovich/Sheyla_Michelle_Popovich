@@ -167,9 +167,9 @@ export default function Testimonial(props) {
           </div>
         </div>
       </section>
-      <div className="footer-image">
+      {/* <div className="footer-image">
         <img src={shape} alt="no internet connection" />
-      </div>
+      </div> */}
     </div>
   );
 }
