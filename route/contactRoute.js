@@ -7,6 +7,7 @@ router.post('/contact', (req,res)=> {
     let data = req.body
     if (data.name.length === 0 || data.email.length === 0 || data.message.length === 0) {
         return res.json({msg: "please fill all fields"})
+    }
 
         let smtpTransporter = nodemailer.createTransport({
             service: 'Gmail',
@@ -39,7 +40,7 @@ router.post('/contact', (req,res)=> {
                 if(error)return res.status(500).json({msg: "There is a server error"})
             }
         })
-    }
+    
 })
 
 module.exports=router
