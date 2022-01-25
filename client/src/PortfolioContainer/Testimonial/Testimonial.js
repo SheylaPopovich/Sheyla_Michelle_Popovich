@@ -11,6 +11,7 @@ import lady from "../../../src/img/Testimonial/lady.png";
 
 
 
+
 export default function Testimonial(props) {
   let fadeInScreenHandler = (screen) => {
     if (screen.fadeInScreen !== props.id) return;
@@ -43,11 +44,10 @@ export default function Testimonial(props) {
 
   useEffect(() => {
     return () => {
-        /* UNSUBSCRIBE THE SUBSCRIPTIONS */
-        fadeInSubscription.unsubscribe();
-    }
+      /* UNSUBSCRIBE THE SUBSCRIPTIONS */
+      fadeInSubscription.unsubscribe();
+    };
   }, [fadeInSubscription]);
-
 
   return (
     <div>
@@ -91,10 +91,7 @@ export default function Testimonial(props) {
                     </ul>
                   </div>
                   <div className="client-info">
-                    <img
-                      src={lady}
-                      alt="no internet connection"
-                    ></img>
+                    <img src={lady} alt="no internet connection"></img>
                     <h5>Stephanie Popovich</h5>
                     <p>The Wife</p>
                   </div>
@@ -128,10 +125,7 @@ export default function Testimonial(props) {
                     </ul>
                   </div>
                   <div className="client-info">
-                    <img
-                      src={lady}
-                      alt="no internet connection"
-                    ></img>
+                    <img src={lady} alt="no internet connection"></img>
                     <h5>Stephanie Popovich</h5>
                     <p>The Wife</p>
                   </div>
@@ -165,10 +159,7 @@ export default function Testimonial(props) {
                     </ul>
                   </div>
                   <div className="client-info">
-                    <img
-                      src={lady}
-                      alt="no internet connection"
-                    ></img>
+                    <img src={lady} alt="no internet connection"></img>
                     <h5>Stephanie Popovich</h5>
                     <p>The Wife</p>
                   </div>
@@ -178,6 +169,9 @@ export default function Testimonial(props) {
           </div>
         </div>
       </section>
+      <div>
+        <img src={} alt="image not responding" />
+      </div>
     </div>
   );
 }
