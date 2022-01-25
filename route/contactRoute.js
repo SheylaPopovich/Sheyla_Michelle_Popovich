@@ -22,6 +22,9 @@ router.post('/contact', (req,res)=> {
             subject: `message from $(data.name)`,
             html:`
             <h3>Information</h3>
+            <ul>
+            <li></li>
+            </ul>
             `
         }
     }
