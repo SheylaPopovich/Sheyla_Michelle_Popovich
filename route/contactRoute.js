@@ -31,11 +31,11 @@ router.post('/contact', (req,res)=> {
             <p>${data.message}</p>
             `
         }
-        smtpTransporter.sendMail(mailOptions, ()=>{
+        smtpTransporter.sendMail(mailOptions, (error)=>{
             try {
                 
             } catch (error) {
-                
+                if(error)return.res.status(500).json({msg: "There is a server error"})
             }
         })
     }
