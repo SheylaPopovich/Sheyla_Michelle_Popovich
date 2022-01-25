@@ -8,9 +8,7 @@ import ScrollService from "../../utilities/ScrollService";
 import Animations from "../../utilities/Animations";
 import "./Testimonial.css";
 import lady from "../../../src/img/Testimonial/lady.png";
-import footer from "../../../src/img/Testimonial/shape-bg.png"
-
-
+import shape from "../../../src/img/Testimonial/shape-bg.png";
 
 export default function Testimonial(props) {
   let fadeInScreenHandler = (screen) => {
@@ -169,8 +167,8 @@ export default function Testimonial(props) {
           </div>
         </div>
       </section>
-      <div>
-        <img src={footer} alt="image not responding" />
+      <div className="footer-image">
+        <img src={shape} alt="no internet connection" />
       </div>
     </div>
   );
