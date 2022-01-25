@@ -28,8 +28,11 @@ router.post('/contact', (req,res)=> {
             </ul>
 
             <h3>Message</h3>
-            <p></p>
+            <p>${data.message}</p>
             `
         }
+        smtpTransporter.sendMail(mailOptions, ()=>{
+            
+        })
     }
 })
