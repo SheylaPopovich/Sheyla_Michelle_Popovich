@@ -10,6 +10,10 @@ router.post('/contact', (req,res)=> {
 
         let smtpTransporter = nodemailer.createTransport({
             service: 'Gmail',
+            port: 465,
+            auth:{
+                user:
+            }
         })
     }
 })
