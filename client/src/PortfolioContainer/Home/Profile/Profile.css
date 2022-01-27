@@ -30,17 +30,18 @@
 }
 
 .primary-text {
-  color: black;
+  color: white;
 }
 
 .highlighted-text {
-  color: #ff5823;
+  color: #FF2255;
 }
 
 .profile-role-tagline {
   font-size: 19px;
   margin: 5px 0 0 0;
   font-family: "Poppins Light";
+  color: white;
 }
 
 .profile-options .highlighted-btn {

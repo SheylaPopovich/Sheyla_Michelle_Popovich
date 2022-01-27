@@ -44,7 +44,7 @@ export default function Profile() {
           <div className="profile-details-name">
             <span className="primary-text">
               {" "}
-              Hello, I'M <span className="highlighted-text">Sheyla Popovich</span>
+              Hi, I'm <span className="highlighted-text">Sheyla</span>
             </span>
           </div>
           <div className="profile-details-role">
@@ -55,11 +55,9 @@ export default function Profile() {
                 <Typical
                   loop={Infinity}
                   steps={[
-                    "Enthusiastic Dev 🙋",
+                    "Enthusiastic Dev",
                     1000,
-                    "Full Stack Developer",
-                    1000,
-                    "React Dev 📱",
+                    "React Dev",
                     1000,
                     "More About Me",
                     1000,
@@ -70,9 +68,7 @@ export default function Profile() {
               </h1>
               </span>
               <span className="profile-role-tagline">
-                I wish to create innovative websites while displaying the
-                highest level of professionalism to achieve absolute client
-                satisfaction.
+                Full Stack Developer
               </span>
            
           </div>
