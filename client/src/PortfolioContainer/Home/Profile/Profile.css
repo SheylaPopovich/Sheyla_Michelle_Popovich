@@ -71,15 +71,15 @@
   height: 92%;
   width: 92%;
   border-radius: 50%;
-  background-image: url("../../../assets/profilephoto.jpg");
+  background-image: url("../../../assets/profilephoto-removebg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  /* transform: rotate(328deg); */
+  transform: rotate(328deg);
 }
 
 .profile-picture-background:hover {
-  transform: scale(1.07);
+  transform: scale(1.07) rotate(328deg);
   transition: 1s ease-out;
 }
 
@@ -92,7 +92,6 @@
 .colz .colz-icon i:hover {
   transform: scale(1.5);
 }
-
 
 @media screen and (max-width: 1110px) {
   .profile-picture {
