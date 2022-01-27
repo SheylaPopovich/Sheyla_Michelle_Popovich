@@ -52,7 +52,7 @@ export default function Profile() {
               {" "}
               <h1>
                 {" "}
-                <Typical
+                <Typical className="typical"
                   loop={Infinity}
                   steps={[
                     "[ Enthusiastic Dev ]",

@@ -18,6 +18,7 @@
   font-size: 50px;
   font-family: "Poppins ExtraBold";
   color: #ff2255;
+  padding-right: 5%;
 }
 
 .header-options {
@@ -43,6 +44,10 @@
 
 .selected-header-option {
   color: #13fad7;
+}
+
+.typical {
+  text-align: left;
 }
 
 @media only screen and (max-width: 1110px) {
