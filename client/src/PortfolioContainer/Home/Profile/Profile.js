@@ -52,7 +52,8 @@ export default function Profile() {
               {" "}
               <h1>
                 {" "}
-                <Typical className="typical"
+                <Typical
+                  className="typical"
                   loop={Infinity}
                   steps={[
                     "[ Enthusiastic Dev ]",
@@ -66,17 +67,14 @@ export default function Profile() {
                   ]}
                 />
               </h1>
-              </span>
-              <span className="profile-role-tagline">
-                Full Stack Developer
-              </span>
-           
+            </span>
+            <span className="profile-role-tagline">Full Stack Developer</span>
           </div>
           <div className="profile-options">
-            <button className="btn primary-btn"
-             onClick={() => ScrollService.scrollHandler.scrollToHireMe()}
+            <button
+              className="btn primary-btn"
+              onClick={() => ScrollService.scrollHandler.scrollToHireMe()}
             >
-           
               Hire Me
             </button>
             <a

@@ -52,7 +52,7 @@
 
 .profile-options .highlighted-btn:hover {
   margin: 0 0 0 28px;
-  background-color: cornsilk;
+  background-color: #13fad7;
   color: #111;
 }
 
@@ -83,9 +83,8 @@
   transition: 1s ease-out;
 }
 
-
 .colz .colz-icon i {
-  color:  #13fad7;
+  color: #13fad7;
   padding: 8px;
   padding-left: 0px;
 }
