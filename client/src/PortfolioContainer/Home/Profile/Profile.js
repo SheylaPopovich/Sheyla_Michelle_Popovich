@@ -44,7 +44,7 @@ export default function Profile() {
           <div className="profile-details-name">
             <span className="primary-text">
               {" "}
-              Hi, I'm <span className="highlighted-text">Sheyla</span>
+              Hi, <span className="highlighted-text">Sheyla.is()</span>
             </span>
           </div>
           <div className="profile-details-role">
@@ -59,9 +59,9 @@ export default function Profile() {
                     1000,
                     "[ React Dev ]",
                     1000,
-                    "[ More About Me ]",
+                    "[ Raised by the 90s ]",
                     1000,
-                    "[ A little More About Me ]",
+                    "[ Now available for you ]",
                     1000,
                   ]}
                 />
