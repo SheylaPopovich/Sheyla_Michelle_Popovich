@@ -55,13 +55,13 @@ export default function Profile() {
                 <Typical
                   loop={Infinity}
                   steps={[
-                    "Enthusiastic Dev",
+                    "[ Enthusiastic Dev ]",
                     1000,
-                    "React Dev",
+                    "[ React Dev ]",
                     1000,
-                    "More About Me",
+                    "[ More About Me ]",
                     1000,
-                    "A little More About Me",
+                    "[ A little More About Me ]",
                     1000,
                   ]}
                 />

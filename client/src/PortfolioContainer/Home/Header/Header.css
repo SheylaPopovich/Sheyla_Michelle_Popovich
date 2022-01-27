@@ -17,7 +17,7 @@
 .header-logo {
   font-size: 50px;
   font-family: "Poppins ExtraBold";
-  color: var(--white);
+  color:  #ff2255;;
 }
 
 .header-options {
@@ -42,8 +42,12 @@
 }
 
 .selected-header-option {
-  color: #115852;
+  color: #13FAD7;
 }
+
+
+
+
 
 @media only screen and (max-width: 1110px) {
   .header-parent {
