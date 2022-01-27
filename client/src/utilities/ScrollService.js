@@ -7,7 +7,11 @@ export default class ScrollService {
   static currentScreenFadeIn = new Subject();
 
   constructor() {
+<<<<<<< HEAD
     window.addEventListener('scroll', this.checkCurrentScreenUnderViewPort);
+=======
+    window.addEventListener("scroll", this.checkCurrentScreenUnderViewPort);
+>>>>>>> c2af4fa3566e4562476b464723d161534f853df3
   }
   scrollToHireMe = () => {
     let contactMeScreen = document.getElementById("ContactMe");
