@@ -4,8 +4,6 @@
   justify-content: center;
   align-items: center;
   margin: 50px 0 0 0;
-  /* background-color: black; */
-  
 }
 
 .about-me-parent {
@@ -17,7 +15,6 @@
   display: flex;
   width: 100%;
   box-shadow: 0 0px 20px -2px #13fad7;
-  /* background-color: white; */
   background-color: black;
   border-top-left-radius: 16px 16px;
   border-bottom-left-radius: 16px 16px;
@@ -39,20 +36,17 @@
   width: 48%;
   text-align: justify;
   padding: 30px;
-  /* background-color: white; */
   background-color: black;
- 
 }
 
 .about-me-description {
   font-size: 14px;
-  color:white;
-  
+  color: white;
 }
 
 .about-me-highlights {
   margin: 80px 0;
-  color:white;
+  color: white;
 }
 
 .highlight-heading {
@@ -80,7 +74,6 @@
   margin: 0 0 0 20px;
 }
 
-
 /* IPAD PRO RESPONSIVENESS */
 
 @media only screen and (max-width: 1110px) {
@@ -88,9 +81,8 @@
     width: 88%;
   }
   .about-me-details {
-       background-color: black;
+    background-color: black;
   }
-  
 }
 
 @media only screen and (max-width: 898px) {
@@ -100,12 +92,10 @@
   .about-me-details {
     width: 100%;
     background-color: black;
- 
-      border-top-left-radius: 16px 16px;
-      border-bottom-left-radius: 16px 16px;
-      border-top-right-radius: 16px 16px;
-      border-bottom-right-radius: 16px 16px;
-    
+    border-top-left-radius: 16px 16px;
+    border-bottom-left-radius: 16px 16px;
+    border-top-right-radius: 16px 16px;
+    border-bottom-right-radius: 16px 16px;
   }
 }
 
@@ -123,11 +113,9 @@
   .about-me-details {
     width: 100%;
     background-color: black;
- 
-      border-top-left-radius: 16px 16px;
-      border-bottom-left-radius: 16px 16px;
-      border-top-right-radius: 16px 16px;
-      border-bottom-right-radius: 16px 16px;
-    
+    border-top-left-radius: 16px 16px;
+    border-bottom-left-radius: 16px 16px;
+    border-top-right-radius: 16px 16px;
+    border-bottom-right-radius: 16px 16px;
   }
 }
