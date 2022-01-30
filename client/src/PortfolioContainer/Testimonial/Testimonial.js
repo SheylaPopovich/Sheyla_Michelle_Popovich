@@ -9,6 +9,10 @@ import Animations from "../../utilities/Animations";
 import "./Testimonial.css";
 import lady from "../../../src/img/Testimonial/lady.png";
 import shape from "../../../src/img/Testimonial/shape-bg.png";
+import i2E from "../../assets/Testimonial/i2E.gif";
+import codingQuiz from "../../assets/Testimonial/coding-quiz.jpg";
+import dayplanner from "../../assets/Testimonial/dayplanner.jpg";
+
 
 export default function Testimonial(props) {
   let fadeInScreenHandler = (screen) => {
@@ -49,10 +53,7 @@ export default function Testimonial(props) {
 
   return (
     <div>
-      <ScreenHeading
-        title={"Projects"}
-        subHeading={"View my Work"}
-      />
+      <ScreenHeading title={"Projects"} subHeading={"View my Work"} />
       <section className="testimonial-section" id={props.id || ""}>
         <div className="container">
           <div className="row">
@@ -60,108 +61,16 @@ export default function Testimonial(props) {
               className="owl-carousel"
               id="testimonial-carousel"
               {...options}
+       
             >
-              <div className="col-lg-12">
-                <div className="testi-item">
-                  <div className="testi-comment">
-                    <p>
-                      {" "}
-                      <i className="fa fa-quote-left" />
-                      Type in what Micheal wrote.
-                      <i className="fa fa-quote-right" />
-                    </p>
-                    <ul className="stars list-unstyled">
-                      <li>
-                        <i className="fa fa-star" />
-                      </li>
-                      <li>
-                        <i className="fa fa-star" />
-                      </li>
-                      <li>
-                        <i className="fa fa-star" />
-                      </li>
-                      <li>
-                        <i className="fa fa-star-half-alt" />
-                      </li>
-                      <li>
-                        <i className="fa fa-star" />
-                      </li>
-                    </ul>
-                  </div>
-                  <div className="client-info">
-                    <img src={lady} alt="no internet connection"></img>
-                    <h5>Stephanie Popovich</h5>
-                    <p>The Wife</p>
-                  </div>
-                </div>
+              <div >
+                <img src={i2E}/>
               </div>
-              <div className="col-lg-12">
-                <div className="testi-item">
-                  <div className="testi-comment">
-                    <p>
-                      {" "}
-                      <i className="fa fa-quote-left" />
-                      Type in what Micheal wrote.
-                      <i className="fa fa-quote-right" />
-                    </p>
-                    <ul className="stars list-unstyled">
-                      <li>
-                        <i className="fa fa-star" />
-                      </li>
-                      <li>
-                        <i className="fa fa-star" />
-                      </li>
-                      <li>
-                        <i className="fa fa-star" />
-                      </li>
-                      <li>
-                        <i className="fa fa-star-half-alt" />
-                      </li>
-                      <li>
-                        <i className="fa fa-star" />
-                      </li>
-                    </ul>
-                  </div>
-                  <div className="client-info">
-                    <img src={lady} alt="no internet connection"></img>
-                    <h5>Stephanie Popovich</h5>
-                    <p>The Wife</p>
-                  </div>
-                </div>
+              <div >
+                <img src={codingQuiz}/>
               </div>
-              <div className="col-lg-12">
-                <div className="testi-item">
-                  <div className="testi-comment">
-                    <p>
-                      {" "}
-                      <i className="fa fa-quote-left" />
-                      Type in what Micheal wrote.
-                      <i className="fa fa-quote-right" />
-                    </p>
-                    <ul className="stars list-unstyled">
-                      <li>
-                        <i className="fa fa-star" />
-                      </li>
-                      <li>
-                        <i className="fa fa-star" />
-                      </li>
-                      <li>
-                        <i className="fa fa-star" />
-                      </li>
-                      <li>
-                        <i className="fa fa-star-half-alt" />
-                      </li>
-                      <li>
-                        <i className="fa fa-star" />
-                      </li>
-                    </ul>
-                  </div>
-                  <div className="client-info">
-                    <img src={lady} alt="no internet connection"></img>
-                    <h5>Stephanie Popovich</h5>
-                    <p>The Wife</p>
-                  </div>
-                </div>
+              <div >
+                <img src={codingQuiz}/>
               </div>
             </OwlCarousel>
           </div>
