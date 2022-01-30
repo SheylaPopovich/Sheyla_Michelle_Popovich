@@ -12,7 +12,7 @@ import shape from "../../../src/img/Testimonial/shape-bg.png";
 import i2E from "../../assets/Testimonial/i2E.gif";
 import codingQuiz from "../../assets/Testimonial/coding-quiz.jpg";
 import dayplanner from "../../assets/Testimonial/dayplanner.jpg";
-
+import getFlexed from "../../assets/Testimonial/get_flexed.jpg";
 
 export default function Testimonial(props) {
   let fadeInScreenHandler = (screen) => {
@@ -70,8 +70,12 @@ export default function Testimonial(props) {
                 <img src={codingQuiz}/>
               </div>
               <div >
-                <img src={codingQuiz}/>
+                <img src={dayplanner}/>
               </div>
+              <div >
+                <img src={getFlexed}/>
+              </div>
+
             </OwlCarousel>
           </div>
         </div>
