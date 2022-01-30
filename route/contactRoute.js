@@ -1,5 +1,4 @@
 const router = require("express").Router();
-const req = require("express/lib/request");
 const nodemailer = require("nodemailer");
 
 router.post("/contact", (req, res) => {
@@ -33,7 +32,7 @@ router.post("/contact", (req, res) => {
 
             <h3>Message</h3>
             <p>${data.message}</p>
-            `,
+            `
   };
   smtpTransporter.sendMail(mailOptions, (error) => {
     try {
