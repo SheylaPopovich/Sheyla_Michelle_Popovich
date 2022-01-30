@@ -31,7 +31,7 @@
 }
 
 .img-back h4 {
-  color: #ff2255;
+  color: white;
   letter-spacing: 0.3rem;
   font-weight: bold;
   font-size: 18px;
@@ -166,9 +166,6 @@ button .load img {
   font-size: 150%;
 }
 
-h4 {
-  color: #ff2255;
-}
 
 .touch {
   color: #ff2255;
