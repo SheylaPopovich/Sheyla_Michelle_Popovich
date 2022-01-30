@@ -78,7 +78,7 @@ export default function ContactMe(props) {
         <div className="col">
           <h2 className="title">
             {" "}
-            <Typical loop={Infinity} steps={["Get In Touch 📧", 1000]} />
+            <Typical className="touch"loop={Infinity} steps={["Get In Touch 📧", 1000]} />
           </h2>
           <a 
             label="link to facebook "
