@@ -31,11 +31,11 @@
 }
 
 .img-back h4 {
-  color: white;
+  color: #ff2255;
   letter-spacing: 0.3rem;
-  font-weight: 400;
+  font-weight:bold;
   font-size: 18px;
-  opacity: 0.5;
+ 
 }
 
 .back-form .img-back img {
@@ -163,6 +163,10 @@ button .load img {
 .fa-github-square::before {
   color: #13fad7;
   font-size: 150%;
+}
+
+h4 {
+  color: #ff2255;
 }
 
 @media screen and (min-width: 940px) {
