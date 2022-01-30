@@ -50,8 +50,8 @@ export default function Testimonial(props) {
   return (
     <div>
       <ScreenHeading
-        title={"Testimonial"}
-        subHeading={"What My Client Say About Me"}
+        title={"Projects"}
+        subHeading={"View my Work"}
       />
       <section className="testimonial-section" id={props.id || ""}>
         <div className="container">

@@ -125,8 +125,6 @@ body ::-webkit-scrollbar-thumb {
   background-color: #13fad7;
 }
 
-
-
 @media only screen and (max-width: 568px) {
   .highlighted-btn {
     z-index: -900;
