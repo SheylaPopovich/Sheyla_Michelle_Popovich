@@ -11,6 +11,7 @@ import i2E from "../../assets/Testimonial/i2E.gif";
 import codingQuiz from "../../assets/Testimonial/coding-quiz.jpg";
 import dayplanner from "../../assets/Testimonial/dayplanner.jpg";
 import getFlexed from "../../assets/Testimonial/get_flexed.jpg";
+import getFlexed2 from "../../assets/Testimonial/get_flexed2.jpg";
 
 export default function Testimonial(props) {
   let fadeInScreenHandler = (screen) => {
