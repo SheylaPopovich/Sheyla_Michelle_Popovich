@@ -7,8 +7,6 @@ import ScreenHeading from "../../utilities/ScreenHeading/ScreenHeading";
 import ScrollService from "../../utilities/ScrollService";
 import Animations from "../../utilities/Animations";
 import "./Testimonial.css";
-import lady from "../../../src/img/Testimonial/lady.png";
-import shape from "../../../src/img/Testimonial/shape-bg.png";
 import i2E from "../../assets/Testimonial/i2E.gif";
 import codingQuiz from "../../assets/Testimonial/coding-quiz.jpg";
 import dayplanner from "../../assets/Testimonial/dayplanner.jpg";
@@ -75,6 +73,7 @@ export default function Testimonial(props) {
               <div >
                 <img src={getFlexed}/>
               </div>
+              
 
             </OwlCarousel>
           </div>
