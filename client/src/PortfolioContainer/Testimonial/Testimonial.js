@@ -74,7 +74,9 @@ export default function Testimonial(props) {
               <div >
                 <img src={getFlexed}/>
               </div>
-              
+              <div >
+                <img src={getFlexed2}/>
+              </div>
 
             </OwlCarousel>
           </div>
