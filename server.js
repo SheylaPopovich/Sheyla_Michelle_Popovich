@@ -6,6 +6,7 @@ const contactRoute = require("./route/contactRoute");
 
 const app = express();
 
+
 //creating the middleware
 app.use(express.json());
 app.use(cors());
