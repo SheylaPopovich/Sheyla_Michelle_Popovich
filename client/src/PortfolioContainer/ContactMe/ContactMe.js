@@ -80,7 +80,7 @@ export default function ContactMe(props) {
             {" "}
             <Typical loop={Infinity} steps={["Get In Touch 📧", 1000]} />
           </h2>
-          <a
+          <a 
             label="link to facebook "
             href="https://www.facebook.com/sheyla.michelle.303"
           >

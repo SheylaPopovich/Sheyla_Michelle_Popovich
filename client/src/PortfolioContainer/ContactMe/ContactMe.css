@@ -145,6 +145,25 @@ button .load img {
   text-align: center;
 }
 
+.fa-facebook-square::before {
+  color: #13fad7;
+  font-size: 150%;
+}
+
+.fa-instagram::before {
+  color: #13fad7;
+  font-size: 150%;
+}
+
+.fa-linkedin-square::before {
+  color: #13fad7;
+  font-size: 150%;
+}
+
+.fa-github-square::before {
+  color: #13fad7;
+  font-size: 150%;
+}
 
 @media screen and (min-width: 940px) {
   .back-form {
