@@ -130,8 +130,9 @@
 }
 
 .resume-heading-description {
-  font-size: 12px;
+  font-size: 14px;
   text-align: justify;
+  color: white;
 }
 
 .heading-date {
