@@ -102,3 +102,9 @@
   line-height: 26px;
   font-weight: 600;
 }
+
+.projects {
+  padding-left: 10%;
+  height: 20em;
+  width: 500px;
+}

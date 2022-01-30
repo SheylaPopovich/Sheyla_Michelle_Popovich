@@ -62,19 +62,19 @@ export default function Testimonial(props) {
               {...options}
             >
               <div>
-                <img src={i2E} />
+                <img className="projects" src={i2E} />
               </div>
               <div>
-                <img src={codingQuiz} />
+                <img className="projects" src={codingQuiz} />
               </div>
               <div>
-                <img src={dayplanner} />
+                <img className="projects" src={dayplanner} />
               </div>
               <div>
-                <img src={getFlexed} />
+                <img className="projects" src={getFlexed} />
               </div>
               <div>
-                <img src={getFlexed2} />
+                <img className="projects" src={getFlexed2} />
               </div>
             </OwlCarousel>
           </div>
