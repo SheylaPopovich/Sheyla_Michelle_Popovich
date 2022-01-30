@@ -60,24 +60,22 @@ export default function Testimonial(props) {
               className="owl-carousel"
               id="testimonial-carousel"
               {...options}
-       
             >
-              <div >
-                <img src={i2E}/>
+              <div>
+                <img src={i2E} />
               </div>
-              <div >
-                <img src={codingQuiz}/>
+              <div>
+                <img src={codingQuiz} />
               </div>
-              <div >
-                <img src={dayplanner}/>
+              <div>
+                <img src={dayplanner} />
               </div>
-              <div >
-                <img src={getFlexed}/>
+              <div>
+                <img src={getFlexed} />
               </div>
-              <div >
-                <img src={getFlexed2}/>
+              <div>
+                <img src={getFlexed2} />
               </div>
-
             </OwlCarousel>
           </div>
         </div>
