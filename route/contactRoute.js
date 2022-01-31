@@ -32,7 +32,7 @@ router.post("/contact", (req, res) => {
 
             <h3>Message</h3>
             <p>${data.message}</p>
-            `
+            `,
   };
   smtpTransporter.sendMail(mailOptions, (error) => {
     try {
