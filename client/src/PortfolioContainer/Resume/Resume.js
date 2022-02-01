@@ -91,8 +91,8 @@ export default function Resume(props) {
         toDate={"2014"}
       />
       <ResumeHeading
-        heading={"High School"}
-        subHeading={"Robinson High School"}
+        heading={"Robinson High School"}
+        subHeading={"High School"}
         fromDate={"2001"}
         toDate={"2005"}
       />
