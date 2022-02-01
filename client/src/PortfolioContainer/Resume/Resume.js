@@ -71,12 +71,12 @@ export default function Resume(props) {
     },
     {
       title: "Coding Quiz Challenge",
-      duration: { fromDate: "2020", toDate: "2021" },
-      description: "This is an area I have to update later when I can",
-      subHeading: "Technologies Used: React JS, Bootstrap",
+      duration: { fromDate: "2021", toDate: "2021" },
+      description: "This application is a timed quiz covering the topic of Coding with multiple choice answers. The app will run in your browser and will feature dynamically updated HTML and CSS powered by JavaScript code.",
+      subHeading: "Technologies Used: HTML, CSS, Javascript",
     },
     {
-      title: "Enter Second New Project Name and Update the Rest",
+      title: "Get Flexed",
       duration: { fromDate: "2020", toDate: "2021" },
       description: "This is an area I have to update later when I can",
       subHeading: "Technologies Used: React JS, Bootstrap",
