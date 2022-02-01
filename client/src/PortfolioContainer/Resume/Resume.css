@@ -184,6 +184,11 @@
   font-size: 14px;
 }
 
+.logos {
+  height: 40px;
+  width: 50px;
+}
+
 
 /* IPAD PRO RESPONSIVENESS */
 @media only screen and (max-width: 1110px) {

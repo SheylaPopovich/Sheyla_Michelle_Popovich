@@ -5,9 +5,9 @@ import Animations from "../../utilities/Animations";
 import "./Resume.css";
 import jsLogo from "../../assets/JS_logo.png";
 import nodeJS from "../../assets/nodejs.png";
-import mongoDB from "../../assets/mongo_db.png";
-
-
+import mongoDB from "../../assets/mongo_DB.png";
+import react from "../../assets/react_logo.png";
+import htmlCssLogo from "../../assets/html_css_logo.png";
 
 export default function Resume(props) {
   const [selectedBulletIndex, setSelectedBulletIndex] = useState(0);
@@ -155,9 +155,10 @@ export default function Resume(props) {
           </div>
         </div>
       ))} */}
-<img src={jsLogo} />
-<img src={nodeJS} />
-<img src={mongoDB} />
+<img className="logos" src={jsLogo} />
+<img className="logos" src={nodeJS} />
+<img className="logos" src={mongoDB} />
+<img className="logos" src={react} />
     </div>,
 
     <div className="resume-screen-container" key="projects">
