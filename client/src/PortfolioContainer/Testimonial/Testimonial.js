@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
-import OwlCarousel from "react-owl-carousel";
-import "owl.carousel/dist/assets/owl.carousel.css";
-import "owl.carousel/dist/assets/owl.theme.default.css";
+// import OwlCarousel from "react-owl-carousel";
+// import "owl.carousel/dist/assets/owl.carousel.css";
+// import "owl.carousel/dist/assets/owl.theme.default.css";
 
 import ScreenHeading from "../../utilities/ScreenHeading/ScreenHeading";
 import ScrollService from "../../utilities/ScrollService";
@@ -9,6 +9,7 @@ import Animations from "../../utilities/Animations";
 import "./Testimonial.css";
 import i2E from "../../assets/Testimonial/i2E.gif";
 import codingQuiz from "../../assets/Testimonial/coding-quiz.jpg";
+
 import getFlexed from "../../assets/Testimonial/get_flexed.jpg";
 import getFlexed2 from "../../assets/Testimonial/get_flexed2.jpg";
 
@@ -76,7 +77,7 @@ export default function Testimonial(props) {
           </div>
         </div>
       </section>
-     <button>See more on GITHUB</button>
+     
     </div>
   );
 }
