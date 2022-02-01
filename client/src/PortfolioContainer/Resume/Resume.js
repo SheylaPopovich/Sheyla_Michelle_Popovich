@@ -64,8 +64,10 @@ export default function Resume(props) {
     {
       title: "Initiation to Execution",
       duration: { fromDate: "2021", toDate: "2021" },
-      description: "A project management app with the ability to create individual projects and collaborate with others within a secure environment.",
-      subHeading: "Technologies Used: React JS, JavaScript, Node.js, Express.js, MongoDB, ApollographQL, GraphQL, FireStore, MUI",
+      description:
+        "A project management app with the ability to create individual projects and collaborate with others within a secure environment.",
+      subHeading:
+        "Technologies Used: ReactJS, JavaScript, MongoDB, GraphQL, FireStore, MUI",
     },
     {
       title: "Enter New Project Name and Update the Rest",
@@ -155,11 +157,11 @@ export default function Resume(props) {
           </div>
         </div>
       ))} */}
-<img className="logos" src={jsLogo} />
-<img className="logos" src={nodeJS} />
-<img className="logos" src={mongoDB} />
-<img className="logos" src={react} />
-<img className="logos" src={htmlCssLogo} />
+      <img className="logos" src={jsLogo} />
+      <img className="logos" src={nodeJS} />
+      <img className="logos" src={mongoDB} />
+      <img className="logos" src={react} />
+      <img className="logos" src={htmlCssLogo} />
     </div>,
 
     <div className="resume-screen-container" key="projects">
