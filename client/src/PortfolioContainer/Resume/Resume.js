@@ -52,18 +52,18 @@ export default function Resume(props) {
     { label: "Interests", logoSrc: "interests.svg" },
   ];
 
-  const programmingSkillDetails = [
-    { skill: "JavaScript", ratingPercentage: 50 },
-    { skill: "React", ratingPercentage: 20 },
-    { skill: "Node JS", ratingPercentage: 30 },
-    { skill: "Mongo DB", ratingPercentage: 90 },
-    { skill: "CSS", ratingPercentage: 10 },
-  ];
+  // const programmingSkillDetails = [
+  //   { skill: "JavaScript", ratingPercentage: 50 },
+  //   { skill: "React", ratingPercentage: 20 },
+  //   { skill: "Node JS", ratingPercentage: 30 },
+  //   { skill: "Mongo DB", ratingPercentage: 90 },
+  //   { skill: "CSS", ratingPercentage: 10 },
+  // ];
 
   const projectDetails = [
     {
-      title: "Personal Portfolio Website",
-      duration: { fromDate: "2020", toDate: "2021" },
+      title: "Personal Portfolio",
+      duration: { fromDate: "2021", toDate: "2022" },
       description: "This is an area I have to update later when I can",
       subHeading: "Technologies Used: React JS, Bootstrap",
     },

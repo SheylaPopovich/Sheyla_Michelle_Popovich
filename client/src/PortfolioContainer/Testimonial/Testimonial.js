@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
-import OwlCarousel from "react-owl-carousel";
-import "owl.carousel/dist/assets/owl.carousel.css";
-import "owl.carousel/dist/assets/owl.theme.default.css";
+// import OwlCarousel from "react-owl-carousel";
+// import "owl.carousel/dist/assets/owl.carousel.css";
+// import "owl.carousel/dist/assets/owl.theme.default.css";
 
 import ScreenHeading from "../../utilities/ScreenHeading/ScreenHeading";
 import ScrollService from "../../utilities/ScrollService";
@@ -54,7 +54,7 @@ export default function Testimonial(props) {
     <div>
       <ScreenHeading title={"Projects"} subHeading={"View my Work"} />
       <section className="testimonial-section" id={props.id || ""}>
-        <div className="container">
+        {/* <div className="container">
           <div className="row">
             <OwlCarousel
               className="owl-carousel"
@@ -78,11 +78,27 @@ export default function Testimonial(props) {
               </div>
             </OwlCarousel>
           </div>
+        </div> */}
+
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <img className="projects" src={i2E} />
+            </div>
+            <div class="col">
+              <img className="projects" src={getFlexed} />
+            </div>
+            <div class="w-100"></div>
+            <div class="col">
+              <img className="projects" src={codingQuiz} />
+            </div>
+            <div class="col">
+            <img className="projects" src={getFlexed2} />
+            </div>
+          </div>
         </div>
       </section>
-      {/* <div className="footer-image">
-        <img src={shape} alt="no internet connection" />
-      </div> */}
+     
     </div>
   );
 }
