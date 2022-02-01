@@ -3,6 +3,8 @@ import ScreenHeading from "../../utilities/ScreenHeading/ScreenHeading";
 import ScrollService from "../../utilities/ScrollService";
 import Animations from "../../utilities/Animations";
 import "./Resume.css";
+import jsLogo from "../../assets/JS_logo.png";
+import nodeJS from "../../assets/nodejs.png";
 
 export default function Resume(props) {
   const [selectedBulletIndex, setSelectedBulletIndex] = useState(0);
@@ -107,20 +109,27 @@ export default function Resume(props) {
         />
         <div className="experience-description">
           <span className="resume-description-job">
-          Coordinated patients' complex appointment schedules. Performed administrative duties such as processing ABN forms, insurance verification, inputting patient registration information, and completing pre-examination record information. Scheduled tests/consults requests from various venues of communication. 
+            Coordinated patients' complex appointment schedules. Performed
+            administrative duties such as processing ABN forms, insurance
+            verification, inputting patient registration information, and
+            completing pre-examination record information. Scheduled
+            tests/consults requests from various venues of communication.
           </span>
         </div>
         <div className="experience-description">
           <span className="resume-description-text">
-         - Conceptualized and implemented workflow process for various DOS responsibilities 
+            - Conceptualized and implemented workflow process for various DOS
+            responsibilities
           </span>
           <br />
           <span className="resume-description-text">
-            - Developed and initiated a training team for new hires and existing staff members
+            - Developed and initiated a training team for new hires and existing
+            staff members
           </span>
           <br />
           <span className="resume-description-text">
-            - Successfully executed a communication tool for the transition of  responsibilities
+            - Successfully executed a communication tool for the transition of
+            responsibilities
           </span>
           <br />
         </div>
@@ -131,7 +140,7 @@ export default function Resume(props) {
       className="resume-screen-container programming-skills-container"
       key="programming skills"
     >
-      {programmingSkillDetails.map((skill, index) => (
+      {/* {programmingSkillDetails.map((skill, index) => (
         <div className="skill-parent" key={index}>
           <div className="heading-bullet"></div>
           <span>{skill.skill}</span>
@@ -142,7 +151,9 @@ export default function Resume(props) {
             ></div>
           </div>
         </div>
-      ))}
+      ))} */}
+<img src={jsLogo} />
+
     </div>,
 
     <div className="resume-screen-container" key="projects">
