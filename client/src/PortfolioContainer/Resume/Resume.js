@@ -70,7 +70,7 @@ export default function Resume(props) {
         "Technologies Used: ReactJS, JavaScript, MongoDB, GraphQL, FireStore, MUI",
     },
     {
-      title: "Enter New Project Name and Update the Rest",
+      title: "Coding Quiz Challenge",
       duration: { fromDate: "2020", toDate: "2021" },
       description: "This is an area I have to update later when I can",
       subHeading: "Technologies Used: React JS, Bootstrap",
