@@ -64,7 +64,7 @@ export default function Resume(props) {
     {
       title: "Personal Portfolio",
       duration: { fromDate: "2021", toDate: "2022" },
-      description: "This is an area I have to update later when I can",
+      description: "A project management app with the ability to create individual projects and collaborate with others within a secure environment.",
       subHeading: "Technologies Used: React JS, Bootstrap",
     },
     {

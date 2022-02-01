@@ -1,7 +1,5 @@
 import React, { useEffect } from "react";
-// import OwlCarousel from "react-owl-carousel";
-// import "owl.carousel/dist/assets/owl.carousel.css";
-// import "owl.carousel/dist/assets/owl.theme.default.css";
+
 
 import ScreenHeading from "../../utilities/ScreenHeading/ScreenHeading";
 import ScrollService from "../../utilities/ScrollService";
@@ -20,7 +18,6 @@ export default function Testimonial(props) {
   };
   const fadeInSubscription =
     ScrollService.currentScreenFadeIn.subscribe(fadeInScreenHandler);
-
 
   useEffect(() => {
     return () => {
@@ -72,12 +69,11 @@ export default function Testimonial(props) {
               <img className="projects" src={codingQuiz} />
             </div>
             <div class="col">
-            <img className="projects" src={getFlexed2} />
+              <img className="projects" src={getFlexed2} />
             </div>
           </div>
         </div>
       </section>
-     
     </div>
   );
 }
