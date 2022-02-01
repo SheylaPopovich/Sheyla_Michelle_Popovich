@@ -5,6 +5,9 @@ import Animations from "../../utilities/Animations";
 import "./Resume.css";
 import jsLogo from "../../assets/JS_logo.png";
 import nodeJS from "../../assets/nodejs.png";
+import mongoDB from "../../assets/mongo_db.png";
+
+
 
 export default function Resume(props) {
   const [selectedBulletIndex, setSelectedBulletIndex] = useState(0);
@@ -153,6 +156,7 @@ export default function Resume(props) {
         </div>
       ))} */}
 <img src={jsLogo} />
+<img src={nodeJS} />
 
     </div>,
 
