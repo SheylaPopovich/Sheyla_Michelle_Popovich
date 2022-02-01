@@ -106,9 +106,9 @@ export default function Resume(props) {
           toDate={"2005"}
         />
         <div className="experience-description">
-          <span className="resume-description-text">
+          {/* <span className="resume-description-text">
             Change this span to a description
-          </span>
+          </span> */}
         </div>
         <div className="experience-description">
           <span className="resume-description-text">
