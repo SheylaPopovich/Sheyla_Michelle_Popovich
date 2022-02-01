@@ -185,8 +185,12 @@
 }
 
 .logos {
-  height: 40px;
-  width: 50px;
+  height: 85px;
+  width: 95px;
+  /* display: flex;
+  flex-direction: column;
+  position: relative; */
+  /* width: 50%; */
 }
 
 
