@@ -14,12 +14,12 @@ export default function AboutMe(props){
 
   const SCREEN_CONSTANTS = {
     description:
-      "Zoo fleet management application is an essential tool in the operation of our ever-growing fleet of autonomous. We build tools to interact with and monitor our vehicles remotely",
+      "I am very enthusiastic about unleashing my creativity, let’s go! I wish to create innovative websites while displaying the highest level of professionalism to achieve absolute client satisfaction. I will utilize my skills acquired through attending Boot Camp at the University of Denver and obtaining a Certificate in Full Stack Web Development.",
     highlights: {
       bullets: [
-        "I can do this",
-        "I can do that",
-        "But I really dont know what Im doing",
+        "Computer Science applied to JavaScript",
+        "Databases (MySQL, MongoDB)",
+        "Server Side Development (Node.js, Express, MERN Stack)",
       ],
       heading: "Here are a Few Highlights:",
     },
