@@ -157,7 +157,7 @@ export default function Resume(props) {
       ))} */}
 <img src={jsLogo} />
 <img src={nodeJS} />
-
+<img src={mongoDB} />
     </div>,
 
     <div className="resume-screen-container" key="projects">
