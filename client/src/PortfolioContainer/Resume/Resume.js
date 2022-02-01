@@ -106,23 +106,21 @@ export default function Resume(props) {
           toDate={"2005"}
         />
         <div className="experience-description">
-          {/* <span className="resume-description-text">
-            Change this span to a description
-          </span> */}
+          <span className="resume-description-job">
+          Coordinated patients' complex appointment schedules. Performed administrative duties such as processing ABN forms, insurance verification, inputting patient registration information, and completing pre-examination record information. Scheduled tests/consults requests from various venues of communication. 
+          </span>
         </div>
         <div className="experience-description">
           <span className="resume-description-text">
-            - Please some text here that will be for description
+         - Conceptualized and implemented workflow process for various DOS responsibilities 
           </span>
           <br />
           <span className="resume-description-text">
-            - Please some text here that will be for description Please some
-            text here that will be for description
+            - Developed and initiated a training team for new hires and existing staff members
           </span>
           <br />
           <span className="resume-description-text">
-            - Please some text here that will be for description Please some
-            text here that will be for description
+            - Successfully executed a communication tool for the transition of  responsibilities
           </span>
           <br />
         </div>

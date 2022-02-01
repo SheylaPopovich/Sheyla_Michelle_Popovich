@@ -27,11 +27,12 @@
 }
 
 .experience-description {
-  margin: 10px 0 0 0;
+  margin: 10px 0 40px 0;
   text-align: justify;
   max-width: 100%;
   color: white;
   font-family: "Poppins Light";
+  font-size: 14px;
 }
 
 .resume-details-carousal {
@@ -126,6 +127,7 @@
   font-family: "Poppins Light";
   color: white;
   margin: 10px 0 0 0;
+  font-weight: 700;
 }
 
 .resume-heading-description {
@@ -176,6 +178,12 @@
   font-size: 16px;
   color: #ff5823;
 }
+
+
+.resume-description-job{
+  font-size: 14px;
+}
+
 
 /* IPAD PRO RESPONSIVENESS */
 @media only screen and (max-width: 1110px) {
