@@ -62,10 +62,10 @@ export default function Resume(props) {
 
   const projectDetails = [
     {
-      title: "Personal Portfolio",
-      duration: { fromDate: "2021", toDate: "2022" },
+      title: "Initiation to Execution",
+      duration: { fromDate: "2021", toDate: "2021" },
       description: "A project management app with the ability to create individual projects and collaborate with others within a secure environment.",
-      subHeading: "Technologies Used: React JS, Bootstrap",
+      subHeading: "Technologies Used: React JS, JavaScript, Node.js, Express.js, MongoDB, ApollographQL, GraphQL, FireStore, MUI",
     },
     {
       title: "Enter New Project Name and Update the Rest",
