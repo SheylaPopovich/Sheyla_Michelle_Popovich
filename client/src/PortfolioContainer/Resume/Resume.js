@@ -78,7 +78,7 @@ export default function Resume(props) {
     {
       title: "Get Flexed",
       duration: { fromDate: "2020", toDate: "2021" },
-      description: "This is an area I have to update later when I can",
+      description: "Get Flexed is an app that helps you select a workout routine for the day. It's a workout app that allows the user to select the type of workout they desire that then recommends a workout matching their criteria and inspires them with an inspirational banner quote.",
       subHeading: "Technologies Used: React JS, Bootstrap",
     },
   ];
