@@ -60,7 +60,7 @@ export default function Profile() {
                     1000,
                     "[ React Dev ]",
                     1000,
-                    "[ Raised by the 90s ]",
+                    "[ Philomath ]",
                     1000,
                     "[ Now available for you ]",
                     1000,

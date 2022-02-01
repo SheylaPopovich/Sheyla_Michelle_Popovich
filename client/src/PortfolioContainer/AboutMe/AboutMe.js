@@ -14,7 +14,7 @@ export default function AboutMe(props){
 
   const SCREEN_CONSTANTS = {
     description:
-      "I am very enthusiastic about unleashing my creativity, let’s go! I wish to create innovative websites while displaying the highest level of professionalism to achieve absolute client satisfaction. I will utilize my skills acquired through attending Boot Camp at the University of Denver and obtaining a Certificate in Full Stack Web Development.",
+      "I am very enthusiastic about unleashing my creativity. I wish to create innovative websites while displaying the highest level of professionalism to achieve absolute client satisfaction. I will utilize my skills acquired through attending Boot Camp at the University of Denver and obtaining a Certificate in Full Stack Web Development.",
     highlights: {
       bullets: [
         "Computer Science applied to JavaScript",
