@@ -183,12 +183,12 @@ export default function Resume(props) {
         description="Photography can be very therapeutic for me but most importantly a photographer requires a lot of patience as waiting for hours to get that perfect shot and as you know how much patience it requires while coding"
       />
       <ResumeHeading
-        heading="Write in a Interest I have"
-        description="Write in this area here a description of what that interest is"
-      />
+        heading="Exercise and Fitness"
+        description="Exercise and fitness are not only about losing weight and looking good, they serve much more than that. Exercising often helps in overcoming angst emotions. It helps in relaxing the mind. It can refresh your mind and it keeps you mentally strong."
+        />
       <ResumeHeading
-        heading="Write in a Interest I have"
-        description="Write in this area here a description of what that interest is"
+        heading="Music"
+        description="Listening to music is something i can never compromise with. There is always a playlist of songs which helps in refresh my mind. Skimming through Spotify's pop songs charts is at times the best stress reliever that i can get my hands on."
       />
     </div>,
   ];
