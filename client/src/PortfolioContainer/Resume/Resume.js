@@ -8,6 +8,7 @@ import nodeJS from "../../assets/nodejs.png";
 import mongoDB from "../../assets/mongo_DB.png";
 import react from "../../assets/react_logo.png";
 import htmlCssLogo from "../../assets/html_css_logo.png";
+import logo from "../../assets/logo.png";
 
 export default function Resume(props) {
   const [selectedBulletIndex, setSelectedBulletIndex] = useState(0);

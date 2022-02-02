@@ -14,10 +14,10 @@ export default function AboutMe(props) {
 
   const SCREEN_CONSTANTS = {
     description:
-      "I am very enthusiastic about unleashing my creativity. I wish to create innovative websites while displaying the highest level of professionalism to achieve absolute client satisfaction. I will utilize my skills acquired through attending Boot Camp at the University of Denver and obtaining a Certificate in Full Stack Web Development.",
+      "Full stack developer with over 9 years of experience in the medical field with proven ability to adapt in both self-starting and collaborative environments while staying focused on achieving high-quality results under strict deadlines.",
     highlights: {
       bullets: [
-        "Computer Science applied to JavaScript",
+        "HTML, CSS, JavaScript",
         "Databases (MySQL, MongoDB)",
         "Server Side Development (Node.js, Express, MERN Stack)",
       ],
