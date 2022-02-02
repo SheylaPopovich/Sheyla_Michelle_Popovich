@@ -1,6 +1,5 @@
 import React, { useEffect } from "react";
 
-
 import ScreenHeading from "../../utilities/ScreenHeading/ScreenHeading";
 import ScrollService from "../../utilities/ScrollService";
 import Animations from "../../utilities/Animations";
@@ -30,7 +29,7 @@ export default function Testimonial(props) {
     <div>
       <ScreenHeading title={"Projects"} subHeading={"View my Work"} />
       <section className="testimonial-section" id={props.id || ""}>
-        <div class="container">
+        {/* <div class="container1">
           <div class="row">
             <div class="col">
               <img className="projects" src={i2E} />
@@ -46,8 +45,38 @@ export default function Testimonial(props) {
               <img className="projects" src={getFlexed2} />
             </div>
           </div>
-        </div>
+        </div> */}
       </section>
+
+      <div class="container">
+        <img src={i2E} alt="Avatar" class="image" />
+        <div class="overlay">
+          <div class="text">Hello World</div>
+        </div>
+      </div>
+
+
+      <div class="container">
+        <img src={codingQuiz} alt="Avatar" class="image" />
+        <div class="overlay">
+          <div class="text">Hello World</div>
+        </div>
+      </div>
+
+      <div class="container">
+        <img src={getFlexed} alt="Avatar" class="image" />
+        <div class="overlay">
+          <div class="text">Hello World</div>
+        </div>
+      </div>
+
+
+      <div class="container">
+        <img src={getFlexed2} alt="Avatar" class="image" />
+        <div class="overlay">
+          <div class="text">Hello World</div>
+        </div>
+      </div>
     </div>
   );
 }
