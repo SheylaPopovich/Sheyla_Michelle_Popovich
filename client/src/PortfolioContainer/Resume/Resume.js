@@ -10,6 +10,7 @@ import react from "../../assets/react_logo.png";
 import htmlCssLogo from "../../assets/html_css_logo.png";
 import logo from "../../assets/logo.png";
 import firestore from "../../assets/firestore.png";
+import bootstrap from "../../assets/Bootstrap-Logo.png";
 
 export default function Resume(props) {
   const [selectedBulletIndex, setSelectedBulletIndex] = useState(0);
