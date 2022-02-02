@@ -165,6 +165,7 @@ export default function Resume(props) {
       <img className="logos" src={react} />
       <img className="logos" src={htmlCssLogo} />
       <img className="logos" src={logo} />
+      <img className="logos" src={firestore} />
     </div>,
 
     // <div className="resume-screen-container" key="projects">
