@@ -163,6 +163,7 @@ export default function Resume(props) {
       <img className="logos" src={mongoDB} />
       <img className="logos" src={react} />
       <img className="logos" src={htmlCssLogo} />
+      <img className="logos" src={logo} />
     </div>,
 
     // <div className="resume-screen-container" key="projects">
