@@ -17,15 +17,13 @@
   background-color: #000000;
 }
 
-.container2{
+.container2 {
   padding-bottom: 80px;
 }
-
 
 .container {
   position: relative;
   width: 50%;
-
 }
 
 .image {
@@ -39,15 +37,16 @@
 
 .overlay {
   position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 70%;
+  top: 5px;
+  bottom: 16px;
+  left: 8;
+  right: 8;
+  height: 96%;
   width: 95%;
   opacity: 0;
   transition: 0.5s ease;
-  background-color:#13fad7;
+  border-radius: 10%;
+  background-color: #13fad7;
 }
 
 .container:hover .overlay {
