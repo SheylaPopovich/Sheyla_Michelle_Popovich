@@ -60,7 +60,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 0 1px 0px 0px var(#ff2255);
+  box-shadow: 0 1px 0px 0px #ff2255;
   border-radius: 50%;
   height: 380px;
   width: 380px;

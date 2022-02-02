@@ -179,8 +179,8 @@ export default function Resume(props) {
 
     <div className="resume-screen-container" key="interests">
       <ResumeHeading
-        heading="Write in a Interest I have"
-        description="Write in this area here a description of what that interest is"
+        heading="Photography"
+        description="Photography can be very therapeutic for me but most importantly a photographer requires a lot of patience as waiting for hours to get that perfect shot and as you know how much patience it requires while coding"
       />
       <ResumeHeading
         heading="Write in a Interest I have"
