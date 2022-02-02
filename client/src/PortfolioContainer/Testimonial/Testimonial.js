@@ -30,32 +30,6 @@ export default function Testimonial(props) {
     <div>
       <ScreenHeading title={"Projects"} subHeading={"View my Work"} />
       <section className="testimonial-section" id={props.id || ""}>
-        {/* <div className="container">
-          <div className="row">
-            <OwlCarousel
-              className="owl-carousel"
-              id="testimonial-carousel"
-              {...options}
-            >
-              <div>
-                <img className="projects" src={i2E} />
-              </div>
-              <div>
-                <img className="projects" src={codingQuiz} />
-              </div>
-              <div>
-                <img className="projects" src={dayplanner} />
-              </div>
-              <div>
-                <img className="projects" src={getFlexed} />
-              </div>
-              <div>
-                <img className="projects" src={getFlexed2} />
-              </div>
-            </OwlCarousel>
-          </div>
-        </div> */}
-
         <div class="container">
           <div class="row">
             <div class="col">
