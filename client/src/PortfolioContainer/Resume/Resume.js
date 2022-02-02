@@ -12,6 +12,7 @@ import logo from "../../assets/logo.png";
 import firestore from "../../assets/firestore.png";
 import bootstrap from "../../assets/Bootstrap-Logo.png";
 import heroku from "../../assets/heroku-logo.png";
+import github from "../../assets/github.png";
 
 export default function Resume(props) {
   const [selectedBulletIndex, setSelectedBulletIndex] = useState(0);
