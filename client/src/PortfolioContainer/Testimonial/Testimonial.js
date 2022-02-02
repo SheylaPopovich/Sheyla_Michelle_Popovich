@@ -26,7 +26,7 @@ export default function Testimonial(props) {
   }, [fadeInSubscription]);
 
   return (
-    <div>
+    <div className="container2">
       <section className="testimonial-section" id={props.id || ""}>
         {" "}
         <ScreenHeading title={"Projects"} subHeading={"View my Work"} />
