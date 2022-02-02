@@ -58,28 +58,7 @@ export default function Resume(props) {
 
  
 
-  // const projectDetails = [
-  //   {
-  //     title: "Initiation to Execution",
-  //     duration: { fromDate: "2021", toDate: "2021" },
-  //     description:
-  //       "A project management app with the ability to create individual projects and collaborate with others within a secure environment.",
-  //     subHeading:
-  //       "Technologies Used: ReactJS, JavaScript, MongoDB, GraphQL, FireStore, MUI",
-  //   },
-  //   {
-  //     title: "Coding Quiz Challenge",
-  //     duration: { fromDate: "2021", toDate: "2021" },
-  //     description: "This application is a timed quiz covering the topic of Coding with multiple choice answers. The app will run in your browser and will feature dynamically updated HTML and CSS powered by JavaScript code.",
-  //     subHeading: "Technologies Used: HTML, CSS, Javascript",
-  //   },
-  //   {
-  //     title: "Get Flexed",
-  //     duration: { fromDate: "2020", toDate: "2021" },
-  //     description: "Get Flexed is an app that helps you select a workout routine for the day. It's a workout app that allows the user to select the type of workout they desire that then recommends a workout matching their criteria and inspires them with an inspirational banner quote.",
-  //     subHeading: "Technologies Used: HTML, CSS, Javascript, JQuery, Bulma",
-  //   },
-  // ];
+ 
 
   const resumeDetails = [
     <div className="resume-screen-container" key="education">
