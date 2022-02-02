@@ -56,13 +56,7 @@ export default function Resume(props) {
     { label: "Interests", logoSrc: "interests.svg" },
   ];
 
-  // const programmingSkillDetails = [
-  //   { skill: "JavaScript", ratingPercentage: 50 },
-  //   { skill: "React", ratingPercentage: 20 },
-  //   { skill: "Node JS", ratingPercentage: 30 },
-  //   { skill: "Mongo DB", ratingPercentage: 90 },
-  //   { skill: "CSS", ratingPercentage: 10 },
-  // ];
+ 
 
   // const projectDetails = [
   //   {
