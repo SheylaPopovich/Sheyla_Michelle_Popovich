@@ -48,7 +48,7 @@ export default function Resume(props) {
       </div>
     );
   };
-  
+
   const resumeBullets = [
     { label: "Education", logoSrc: "education.svg" },
     { label: "Work History", logoSrc: "work-history.svg" },
@@ -118,7 +118,6 @@ export default function Resume(props) {
       className="resume-screen-container programming-skills-container"
       key="programming skills"
     >
-      
       <img className="logos" src={jsLogo} />
       <img className="logos" src={nodeJS} />
       <img className="logos" src={mongoDB} />
@@ -130,8 +129,6 @@ export default function Resume(props) {
       <img className="logos" src={heroku} />
       <img className="logos" src={github} />
     </div>,
-
-  
 
     <div className="resume-screen-container" key="interests">
       <ResumeHeading
