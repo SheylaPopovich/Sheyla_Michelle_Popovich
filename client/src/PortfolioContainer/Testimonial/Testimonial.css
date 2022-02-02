@@ -26,10 +26,10 @@
   box-shadow: 0 0px 20px -2px #13fad7;
 }
 
-.container1 {
+/* .container1 {
   text-align: center;
 }
-
+ */
 
 .container {
   position: relative;
@@ -37,9 +37,11 @@
 }
 
 .image {
-  display: block;
+  display: flex;
   width: 100%;
   height: auto;
+  box-shadow: 0 0px 20px -2px #13fad7;
+  margin: 5px 5px 5px 5px;
 }
 
 .overlay {

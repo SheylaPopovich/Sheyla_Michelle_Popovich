@@ -27,8 +27,9 @@ export default function Testimonial(props) {
 
   return (
     <div>
-      <ScreenHeading title={"Projects"} subHeading={"View my Work"} />
       <section className="testimonial-section" id={props.id || ""}>
+        {" "}
+        <ScreenHeading title={"Projects"} subHeading={"View my Work"} />
         {/* <div class="container1">
           <div class="row">
             <div class="col">
@@ -48,33 +49,35 @@ export default function Testimonial(props) {
         </div> */}
       </section>
 
-      <div class="container">
-        <img src={i2E} alt="Avatar" class="image" />
-        <div class="overlay">
-          <div class="text">Hello World</div>
-        </div>
-      </div>
+      <div className="container">
+        <div className="row">
+          <div class="container">
+            <img src={i2E} alt="Avatar" class="image" />
+            <div class="overlay">
+              <div class="text">Hello World</div>
+            </div>
+          </div>
 
+          <div class="container">
+            <img src={codingQuiz} alt="Avatar" class="image" />
+            <div class="overlay">
+              <div class="text">Hello World</div>
+            </div>
+          </div>
 
-      <div class="container">
-        <img src={codingQuiz} alt="Avatar" class="image" />
-        <div class="overlay">
-          <div class="text">Hello World</div>
-        </div>
-      </div>
+          <div class="container">
+            <img src={getFlexed} alt="Avatar" class="image" />
+            <div class="overlay">
+              <div class="text">Hello World</div>
+            </div>
+          </div>
 
-      <div class="container">
-        <img src={getFlexed} alt="Avatar" class="image" />
-        <div class="overlay">
-          <div class="text">Hello World</div>
-        </div>
-      </div>
-
-
-      <div class="container">
-        <img src={getFlexed2} alt="Avatar" class="image" />
-        <div class="overlay">
-          <div class="text">Hello World</div>
+          <div class="container">
+            <img src={getFlexed2} alt="Avatar" class="image" />
+            <div class="overlay">
+              <div class="text">Hello World</div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
