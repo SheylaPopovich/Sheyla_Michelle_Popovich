@@ -48,17 +48,13 @@ export default function Resume(props) {
       </div>
     );
   };
-
+  
   const resumeBullets = [
     { label: "Education", logoSrc: "education.svg" },
     { label: "Work History", logoSrc: "work-history.svg" },
     { label: "Programming Skills", logoSrc: "programming-skills.svg" },
     { label: "Interests", logoSrc: "interests.svg" },
   ];
-
- 
-
- 
 
   const resumeDetails = [
     <div className="resume-screen-container" key="education">
@@ -122,18 +118,7 @@ export default function Resume(props) {
       className="resume-screen-container programming-skills-container"
       key="programming skills"
     >
-      {/* {programmingSkillDetails.map((skill, index) => (
-        <div className="skill-parent" key={index}>
-          <div className="heading-bullet"></div>
-          <span>{skill.skill}</span>
-          <div className="skill-percentage">
-            <div
-              style={{ width: skill.ratingPercentage + "%" }}
-              className="active-percentage-bar"
-            ></div>
-          </div>
-        </div>
-      ))} */}
+      
       <img className="logos" src={jsLogo} />
       <img className="logos" src={nodeJS} />
       <img className="logos" src={mongoDB} />
@@ -167,7 +152,7 @@ export default function Resume(props) {
       <ResumeHeading
         heading="Exercise and Fitness"
         description="Exercise and fitness are not only about losing weight and looking good, they serve much more than that. Exercising often helps in overcoming angst emotions. It helps in relaxing the mind. It can refresh your mind and it keeps you mentally strong."
-        />
+      />
       <ResumeHeading
         heading="Music"
         description="Listening to music is something i can never compromise with. There is always a playlist of songs which helps in refresh my mind. Skimming through Spotify's pop songs charts is at times the best stress reliever that i can get my hands on."
