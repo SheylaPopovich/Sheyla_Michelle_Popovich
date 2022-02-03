@@ -4,4 +4,4 @@ An interactive portfolio website built with MERN Technology stack that showcases
 
 
 
-![Sheyla Popovich](client\src\images\portfolio.png)
+![Sheyla Popovich](.\client\src\images\portfolio.png)
