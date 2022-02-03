@@ -98,10 +98,16 @@ export default function Testimonial(props) {
           </div>
 
           <div class="container">
+          <a
+              target="_blank"
+              href="https://get-flexed.herokuapp.com/"
+            >
             <img src={getFlexed2} alt="Avatar" class="image" />
             <div class="overlay4">
-              <div class="text">Hello World</div>
+              <div class="text">Hello World
+              </div>
             </div>
+            </a>
           </div>
         </div>
       </div>
