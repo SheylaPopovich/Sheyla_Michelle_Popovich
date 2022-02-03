@@ -4,4 +4,4 @@ An interactive portfolio website built with MERN Technology stack that showcases
 
 
 
-![main page of my portfolio](./src/assets/images/portfolio)
+![main page of my portfolio](./src/assets/images/portfolio.png)
