@@ -91,10 +91,7 @@ export default function Testimonial(props) {
             <img src={getFlexed} alt="Avatar" class="image" />
             <div class="overlay3">
               <div class="text">
-                This application is a timed quiz covering the topic of "Coding"
-                with multiple choice answers. The app will run in your browser
-                and will feature dynamically updated HTML and CSS powered by
-                JavaScript code.
+              A workout app that allows the user to select the type of workout they prefer by matching their selected filters and then inspires them with an inspirational quote.
               </div>
             </div>
             </a>
