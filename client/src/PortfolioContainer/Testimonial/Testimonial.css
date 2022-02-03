@@ -51,7 +51,7 @@
   opacity: 0;
   transition: 0.5s ease;
   border-radius: 10%;
-  background-color: #13fad7;  
+  background-color: #13fad7;
 }
 
 .overlay1:hover {
@@ -68,7 +68,7 @@
 }
 .text {
   color: #ff2255;
-  font-family:  "Poppins Bold";
+  font-family: "Poppins Bold";
   font-size: 12px;
   position: absolute;
   top: 50%;

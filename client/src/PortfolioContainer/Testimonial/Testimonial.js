@@ -84,29 +84,31 @@ export default function Testimonial(props) {
           </div>
 
           <div class="container">
-          <a
+            <a
               target="_blank"
               href="https://sheylapopovich.github.io/get-flexed/"
             >
-            <img src={getFlexed} alt="Avatar" class="image" />
-            <div class="overlay3">
-              <div class="text">
-              A workout app that allows the user to select the type of workout they prefer by matching their selected filters and then inspires them with an inspirational quote.
+              <img src={getFlexed} alt="Avatar" class="image" />
+              <div class="overlay3">
+                <div class="text">
+                  A workout app that allows the user to select the type of
+                  workout they prefer by matching their selected filters and
+                  then inspires them with an inspirational quote.
+                </div>
               </div>
-            </div>
             </a>
           </div>
 
           <div class="container">
-          <a
-              target="_blank"
-              href="https://get-flexed.herokuapp.com/"
-            >
-            <img src={getFlexed2} alt="Avatar" class="image" />
-            <div class="overlay4">
-              <div class="text">This app was developed as a safe place workout social platform. Users can create an account, workouts, and interact with other users.
+            <a target="_blank" href="https://get-flexed.herokuapp.com/">
+              <img src={getFlexed2} alt="Avatar" class="image" />
+              <div class="overlay4">
+                <div class="text">
+                  This app was developed as a safe place workout social
+                  platform. Users can create an account, workouts, and interact
+                  with other users.
+                </div>
               </div>
-            </div>
             </a>
           </div>
         </div>
