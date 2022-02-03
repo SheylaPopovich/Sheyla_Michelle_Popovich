@@ -52,29 +52,33 @@ export default function Testimonial(props) {
       <div className="container">
         <div className="row">
           <div class="container">
+           <a href="https://initiation-to-execution.herokuapp.com/login">
             <img src={i2E} alt="Avatar" class="image" />
-            <div class="overlay">
-              <div class="text">Hello World</div>
+            <div class="overlay1">
+              <div class="text">A project management app with the ability to
+create individual projects and collaborate with others within a secure environment.</div>
             </div>
+            </a>
           </div>
+          
 
           <div class="container">
             <img src={codingQuiz} alt="Avatar" class="image" />
-            <div class="overlay">
+            <div class="overlay2">
               <div class="text">Hello World</div>
             </div>
           </div>
 
           <div class="container">
             <img src={getFlexed} alt="Avatar" class="image" />
-            <div class="overlay">
+            <div class="overlay3">
               <div class="text">Hello World</div>
             </div>
           </div>
 
           <div class="container">
             <img src={getFlexed2} alt="Avatar" class="image" />
-            <div class="overlay">
+            <div class="overlay4">
               <div class="text">Hello World</div>
             </div>
           </div>

@@ -24,6 +24,8 @@
 .container {
   position: relative;
   width: 50%;
+  margin-bottom: 10%;
+  padding-right: 2%;
 }
 
 .image {
@@ -35,7 +37,10 @@
   border-radius: 10%;
 }
 
-.overlay {
+.overlay1,
+.overlay2,
+.overlay3,
+.overlay4 {
   position: absolute;
   top: 5px;
   bottom: 16px;
@@ -46,16 +51,25 @@
   opacity: 0;
   transition: 0.5s ease;
   border-radius: 10%;
-  background-color: #13fad7;
+  background-color: #13fad7;  
 }
 
-.container:hover .overlay {
+.overlay1:hover {
   opacity: 1;
 }
-
+.overlay2:hover {
+  opacity: 1;
+}
+.overlay3:hover {
+  opacity: 1;
+}
+.overlay4:hover {
+  opacity: 1;
+}
 .text {
-  color: white;
-  font-size: 20px;
+  color: #ff2255;
+  font-family:  "Poppins Light";
+  font-size: 12px;
   position: absolute;
   top: 50%;
   left: 50%;
