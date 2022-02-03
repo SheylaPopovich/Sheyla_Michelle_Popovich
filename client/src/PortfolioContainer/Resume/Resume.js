@@ -5,7 +5,7 @@ import Animations from "../../utilities/Animations";
 import "./Resume.css";
 import jsLogo from "../../assets/JS_logo.png";
 import nodeJS from "../../assets/nodejs.png";
-import mongoDB from "../../assets/mongo_DB.png";
+import mongoDB from "../../assets/mongoDB.png";
 import react from "../../assets/react_logo.png";
 import htmlCssLogo from "../../assets/html_css_logo.png";
 import logo from "../../assets/logo.png";
