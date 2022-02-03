@@ -52,15 +52,20 @@ export default function Testimonial(props) {
       <div className="container">
         <div className="row">
           <div class="container">
-           <a target="_blank" href="https://initiation-to-execution.herokuapp.com/login">
-            <img src={i2E} alt="Avatar" class="image" />
-            <div class="overlay1">
-              <div class="text">A project management app with the ability to
-create individual projects and collaborate with others within a secure environment.</div>
-            </div>
+            <a
+              target="_blank"
+              href="https://initiation-to-execution.herokuapp.com/login"
+            >
+              <img src={i2E} alt="Avatar" class="image" />
+              <div class="overlay1">
+                <div class="text">
+                  A project management app with the ability to create individual
+                  projects and collaborate with others within a secure
+                  environment.
+                </div>
+              </div>
             </a>
           </div>
-          
 
           <div class="container">
             <img src={codingQuiz} alt="Avatar" class="image" />
@@ -72,7 +77,7 @@ create individual projects and collaborate with others within a secure environme
           <div class="container">
             <img src={getFlexed} alt="Avatar" class="image" />
             <div class="overlay3">
-              <div class="text">Hello World</div>
+              <div class="text">This application is a timed quiz covering the topic of "Coding" with multiple choice answers. The app will run in your browser and will feature dynamically updated HTML and CSS powered by JavaScript code.</div>
             </div>
           </div>
 
