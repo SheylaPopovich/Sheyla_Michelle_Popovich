@@ -35,7 +35,7 @@ Bootstrap
 - Implementing SEO
 <br>
 
-# ☕ Wanna Chat?
+# ☕ Want tot Chat?
 Let's chat over Zoom or even meet up for coffee to discuss the endless possibilities!<br>_"Great discoveries and improvements invariably involve the cooperation of many minds."_ <span>-Alexander Graham Bell.</span>
   *  Learn from each other
   *  Share our knowledge
