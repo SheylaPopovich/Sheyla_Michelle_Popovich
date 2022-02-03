@@ -1,4 +1,4 @@
-# Sheyla Popovich Professional Portfolio
+# Professional Portfolio
 
 
 <p align="center">
@@ -25,7 +25,7 @@
 [Sheyla Popovich Portfolio](https://sheyla-michelle-popovich.herokuapp.com/)
 <br>
 <br>
-<img src="src\images\demo_pic.png">
+<img src="client\src\images\demo_pic.png">
 <br>
 <br>
 # ☕ Wanna Chat?
@@ -61,14 +61,3 @@ Bootstrap
 
 # 🤝 Show your support
 Give a ⭐ if you like this website!
-
-
-# Technologies Used
-
-```` 
-React
-Express
-Nodemailer
-Nodemon
-Bootstrap
-````
