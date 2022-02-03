@@ -52,7 +52,7 @@ export default function Testimonial(props) {
       <div className="container">
         <div className="row">
           <div class="container">
-           <a href="https://initiation-to-execution.herokuapp.com/login">
+           <a target="_blank" href="https://initiation-to-execution.herokuapp.com/login">
             <img src={i2E} alt="Avatar" class="image" />
             <div class="overlay1">
               <div class="text">A project management app with the ability to
