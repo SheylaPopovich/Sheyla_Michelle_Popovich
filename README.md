@@ -25,7 +25,7 @@
 [Sheyla Popovich Portfolio](https://sheyla-michelle-popovich.herokuapp.com/)
 <br>
 <br>
-<img src="client\src\images\demo_pic.png">
+<img src="portfolio.png">
 <br>
 <br>
 # ☕ Wanna Chat?
