@@ -68,22 +68,36 @@ export default function Testimonial(props) {
           </div>
 
           <div class="container">
-          <a
+            <a
               target="_blank"
-              href="https://initiation-to-execution.herokuapp.com/login"
+              href="https://sheylapopovich.github.io/coding-quiz-challenge/"
             >
-            <img src={codingQuiz} alt="Avatar" class="image" />
-            <div class="overlay2">
-              <div class="text">Hello World</div>
-            </div>
+              <img src={codingQuiz} alt="Avatar" class="image" />
+              <div class="overlay2">
+                <div class="text">
+                  A timed quiz covering the topic of "Coding" with multiple
+                  choice answers. The app will feature dynamically updated HTML
+                  and CSS powered by JavaScript code.
+                </div>
+              </div>
             </a>
           </div>
 
           <div class="container">
+          <a
+              target="_blank"
+              href="https://sheylapopovich.github.io/get-flexed/"
+            >
             <img src={getFlexed} alt="Avatar" class="image" />
             <div class="overlay3">
-              <div class="text">This application is a timed quiz covering the topic of "Coding" with multiple choice answers. The app will run in your browser and will feature dynamically updated HTML and CSS powered by JavaScript code.</div>
+              <div class="text">
+                This application is a timed quiz covering the topic of "Coding"
+                with multiple choice answers. The app will run in your browser
+                and will feature dynamically updated HTML and CSS powered by
+                JavaScript code.
+              </div>
             </div>
+            </a>
           </div>
 
           <div class="container">
