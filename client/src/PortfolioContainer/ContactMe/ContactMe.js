@@ -40,7 +40,7 @@ export default function ContactMe(props) {
     setMessage(e.target.value);
   };
 
-  const submitForm = async (e) => {
+  const submitForm = async(e) => {
     e.preventDefault();
     try {
       let data = {
@@ -131,10 +131,10 @@ export default function ContactMe(props) {
 
             <div className="send-btn">
               <button type="submit">
-                Send <i className="fa fa-paper-plane"></i>
+                Send <i className="fa fa-paper-plane" />
                 {bool ? (
                   <b className="load">
-                    <img src={load1} alt="load1" />
+                    <img src={load1} alt="no internet connection" />
                   </b>
                 ) : (
                   ""

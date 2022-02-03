@@ -75,7 +75,8 @@ export default function Profile() {
               className="btn primary-btn"
               onClick={() => ScrollService.scrollHandler.scrollToHireMe()}
             >
-              Hire Me
+              {" "}
+              Hire Me{" "}
             </button>
             <a
               aria
