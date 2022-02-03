@@ -49,6 +49,7 @@ export default function ContactMe(props) {
         message,
       };
       setBool(true);
+
       const res = await axios.post(`/contact`, data);
       if (name.length === 0 || email.length === 0 || message.length === 0) {
         setBanner(res.data.msg);
@@ -78,9 +79,13 @@ export default function ContactMe(props) {
         <div className="col">
           <h2 className="title">
             {" "}
-            <Typical className="touch"loop={Infinity} steps={["Get In Touch 📧", 1000]} />
+            <Typical
+              className="touch"
+              loop={Infinity}
+              steps={["Get In Touch 📧", 1000]}
+            />
           </h2>
-          <a 
+          <a
             label="link to facebook "
             href="https://www.facebook.com/sheyla.michelle.303"
           >
