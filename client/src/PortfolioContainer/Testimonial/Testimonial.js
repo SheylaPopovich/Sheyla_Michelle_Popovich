@@ -68,10 +68,15 @@ export default function Testimonial(props) {
           </div>
 
           <div class="container">
+          <a
+              target="_blank"
+              href="https://initiation-to-execution.herokuapp.com/login"
+            >
             <img src={codingQuiz} alt="Avatar" class="image" />
             <div class="overlay2">
               <div class="text">Hello World</div>
             </div>
+            </a>
           </div>
 
           <div class="container">
