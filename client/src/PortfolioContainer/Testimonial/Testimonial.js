@@ -104,7 +104,7 @@ export default function Testimonial(props) {
             >
             <img src={getFlexed2} alt="Avatar" class="image" />
             <div class="overlay4">
-              <div class="text">Hello World
+              <div class="text">This app was developed as a safe place workout social platform. Users can create an account, workouts, and interact with other users.
               </div>
             </div>
             </a>
